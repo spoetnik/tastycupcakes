@@ -5,7 +5,8 @@ import { readdir, readFile } from "node:fs/promises";
 import { join, relative } from "node:path";
 
 const env = {
-  host: process.env.BUNNY_STORAGE_ENDPOINT,
+  // Accepteert zowel "storage.bunnycdn.com" als "https://storage.bunnycdn.com/".
+  host: process.env.BUNNY_STORAGE_ENDPOINT?.replace(/^https?:\/\//, "").replace(/\/+$/, ""),
   zone: process.env.BUNNY_STORAGE_ZONE,
   key: process.env.BUNNY_STORAGE_PASSWORD,
   apiKey: process.env.BUNNY_API_KEY,
