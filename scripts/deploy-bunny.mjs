@@ -16,6 +16,8 @@ for (const [name, value] of Object.entries(env)) {
   if (!value) throw new Error(`Ontbrekende env var: ${name}`);
 }
 
+console.log(`Doel: https://${env.host}/${env.zone}/`);
+
 const entries = await readdir("dist", { recursive: true, withFileTypes: true });
 const files = entries
   .filter((e) => e.isFile())
