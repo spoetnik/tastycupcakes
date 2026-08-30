@@ -1,0 +1,18 @@
+---
+import type { Author } from "../utils/content";
+
+interface Props {
+  author: Author;
+  linked?: boolean;
+}
+const { author, linked = true } = Astro.props;
+const { name, slug, bio, avatar, website } = author.data;
+---
+<aside class="author-box">
+  {avatar && <img src={avatar} alt="" width="64" height="64" loading="lazy" />}
+  <div>
+    <strong>{linked ? <a href={`/author/${slug}/`}>{name}</a> : name}</strong>
+    {bio && <p>{bio}</p>}
+    {website && <p><a href={website} rel="noopener nofollow">{website.replace(/^https?:\/\//, "")}</a></p>}
+  </div>
+</aside>

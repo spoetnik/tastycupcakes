@@ -1,0 +1,13 @@
+---
+import { NAV } from "../utils/site";
+const current = Astro.url.pathname;
+---
+<nav class="site-nav" aria-label="Hoofdnavigatie">
+  <ul>
+    {NAV.map((item) => (
+      <li>
+        <a href={item.href} aria-current={current === item.href ? "page" : undefined}>{item.label}</a>
+      </li>
+    ))}
+  </ul>
+</nav>

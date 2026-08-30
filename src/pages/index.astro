@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ArticleList from "../components/ArticleList.astro";
+import Pagination from "../components/Pagination.astro";
+import { englishPosts, paginate, categoriesWithCounts } from "../utils/content";
+import { SITE } from "../utils/site";
+
+const posts = await englishPosts();
+const page = paginate(posts, 1, SITE.postsPerPage);
+const cats = await categoriesWithCounts();
+---
+<BaseLayout title={SITE.title} description={SITE.description} path="/">
+  <h1>{SITE.tagline}</h1>
+  <p class="prose">
+    {posts.length} games en oefeningen voor agile teams, coaches en facilitators.
+  </p>
+  <ul class="badges" style="margin: 1.2rem 0 2rem;">
+    {cats.map((c) => <li><a class="badge" href={`/category/${c.slug}/`}>{c.name} ({c.count})</a></li>)}
+  </ul>
+  <h2>Recent</h2>
+  <ArticleList posts={page.items} />
+  <Pagination current={page.current} total={page.total} base="/" />
+</BaseLayout>

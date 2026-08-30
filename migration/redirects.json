@@ -1,0 +1,186 @@
+{
+  "patterns": [
+    {
+      "id": "feeds",
+      "match": "^/(.*/)?feed(\\.html)?(/atom)?/?$",
+      "to": "/rss.xml",
+      "status": 301
+    },
+    {
+      "id": "comments-feed",
+      "match": "^/comments/feed(\\.html)?/?$",
+      "to": "/rss.xml",
+      "status": 301
+    },
+    {
+      "id": "comment-pages",
+      "match": "^(/(?:es|fr|pt|ru)?/?\\d{4}/\\d{2}/[^/]+/)comment-page-\\d+/?$",
+      "to": "$1",
+      "status": 301
+    },
+    {
+      "id": "tag-pagination",
+      "match": "^(?:/(?:es|fr|pt|ru))?/tag/([^/]+)/page/\\d+/?$",
+      "to": "/tag/$1/",
+      "status": 301
+    },
+    {
+      "id": "author-pagination",
+      "match": "^(?:/(?:es|fr|pt|ru))?/author/([^/]+)/page/\\d+/?$",
+      "to": "/author/$1/",
+      "status": 301
+    },
+    {
+      "id": "author-nested",
+      "match": "^(?:/(?:es|fr|pt|ru))?/author/[^/]+/[^/]+/?$",
+      "status": 410
+    },
+    {
+      "id": "stray-html",
+      "match": "^/(?:es|fr|pt|ru)/\\d{4}/\\d{2}/[^/]+\\.html$",
+      "status": 410
+    },
+    {
+      "id": "uploads-downloads",
+      "match": "^/wp-content/uploads/(?:.*/)?([^/]+\\.(?:pdf|pptx?|docx?|zip))$",
+      "to": "/downloads/$1",
+      "status": 301
+    },
+    {
+      "id": "uploads-media",
+      "match": "^/wp-content/uploads/(.+)$",
+      "to": "/media/$1",
+      "status": 301
+    },
+    {
+      "id": "wp-system",
+      "match": "^/wp-(admin|json|includes|login|content)(\\.html|[/.].*)?$",
+      "status": 410
+    },
+    {
+      "id": "user-profiles",
+      "match": "^/user/.*$",
+      "status": 410
+    },
+    {
+      "id": "lang-prefix",
+      "match": "^/(?:es|fr|pt|ru)/(.*)$",
+      "to": "/$1",
+      "status": 301
+    }
+  ],
+  "exact": {
+    "/2012/11/dead/comment-page-1/": {
+      "to": "/2012/11/dead/",
+      "status": 301,
+      "reason": "legacy URL"
+    },
+    "/about/michael-mccullough/michael-mccullough/": {
+      "to": "/about/michael-mccullough/",
+      "status": 301,
+      "reason": "genest duplicaat"
+    },
+    "/all-games/": {
+      "to": null,
+      "status": 410,
+      "reason": "pagina ontbreekt in de Engelse export"
+    },
+    "/author/admin/": {
+      "to": "/author/michael-mccullough/",
+      "status": 301,
+      "reason": "auteur-slug vernieuwd"
+    },
+    "/es/author/admin/": {
+      "to": "/author/michael-mccullough/",
+      "status": 301,
+      "reason": "auteurarchief in andere taal"
+    },
+    "/es/author/jane-doe/": {
+      "to": "/author/jane-doe/",
+      "status": 301,
+      "reason": "auteurarchief in andere taal"
+    },
+    "/fr/author/admin/": {
+      "to": "/author/michael-mccullough/",
+      "status": 301,
+      "reason": "auteurarchief in andere taal"
+    },
+    "/fr/author/jane-doe/": {
+      "to": "/author/jane-doe/",
+      "status": 301,
+      "reason": "auteurarchief in andere taal"
+    },
+    "/game/": {
+      "to": null,
+      "status": 410,
+      "reason": "pagina vervalt volgens CONTENT-MODEL §4"
+    },
+    "/game/comment-page-1/": {
+      "to": null,
+      "status": 410,
+      "reason": "pagina vervalt volgens CONTENT-MODEL §4"
+    },
+    "/login/": {
+      "to": null,
+      "status": 410,
+      "reason": "pagina vervalt volgens CONTENT-MODEL §4"
+    },
+    "/password-reset/": {
+      "to": null,
+      "status": 410,
+      "reason": "pagina vervalt volgens CONTENT-MODEL §4"
+    },
+    "/pt/author/admin/": {
+      "to": "/author/michael-mccullough/",
+      "status": 301,
+      "reason": "auteurarchief in andere taal"
+    },
+    "/pt/author/jane-doe/": {
+      "to": "/author/jane-doe/",
+      "status": 301,
+      "reason": "auteurarchief in andere taal"
+    },
+    "/ru/2012/11/simple/": {
+      "to": "/2012/11/simple/",
+      "status": 301,
+      "reason": "vertaalde fallback"
+    },
+    "/ru/author/admin/": {
+      "to": "/author/michael-mccullough/",
+      "status": 301,
+      "reason": "auteurarchief in andere taal"
+    },
+    "/ru/author/jane-doe/": {
+      "to": "/author/jane-doe/",
+      "status": 301,
+      "reason": "auteurarchief in andere taal"
+    },
+    "/submit-game-reference/": {
+      "to": null,
+      "status": 410,
+      "reason": "pagina vervalt volgens CONTENT-MODEL §4"
+    },
+    "/tastycupcakes-home/": {
+      "to": "/",
+      "status": 301,
+      "reason": "oude homepage"
+    },
+    "/vision/": {
+      "to": null,
+      "status": 410,
+      "reason": "pagina ontbreekt in de Engelse export"
+    },
+    "/wp-content/uploads/2012/11/foto-300x200.jpg": {
+      "to": "/media/2012/11/foto.jpg",
+      "status": 301,
+      "reason": "formaatvariant naar origineel"
+    }
+  },
+  "counts": {
+    "exact": 21,
+    "byStatus": {
+      "301": 14,
+      "410": 7
+    }
+  }
+}

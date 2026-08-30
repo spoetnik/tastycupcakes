@@ -1,0 +1,575 @@
+{
+  "source": {
+    "posts": {
+      "en": 349,
+      "es": 274,
+      "fr": 275,
+      "pt": 275,
+      "ru": 275
+    },
+    "pageCandidates": [
+      "(home)",
+      "about",
+      "about/don-mcgreal",
+      "about/get-involved",
+      "about/michael-mccullough",
+      "about/michael-mccullough/michael-mccullough",
+      "about/michael-sahota",
+      "about/translation-project",
+      "agile-games-conference-2011",
+      "feed/atom",
+      "login",
+      "password-reset",
+      "submit-game-reference",
+      "tastycupcakes-home"
+    ],
+    "authorArchives": 163,
+    "categoryArchives": 13,
+    "tagArchives": 324,
+    "userPages": 69,
+    "attachments": 232,
+    "commentPages": 280,
+    "feeds": 2647,
+    "media": {
+      "uploads": 244,
+      "images": 231,
+      "downloads": 13,
+      "variants": 116,
+      "originals": 115,
+      "variantsWithOriginal": 53
+    }
+  },
+  "migrated": {
+    "posts": {
+      "en": 348,
+      "es": 24,
+      "fr": 12,
+      "pt": 23,
+      "ru": 40
+    },
+    "pages": 7,
+    "authors": 165,
+    "categories": 13,
+    "tags": 316
+  },
+  "reconciliation": {
+    "en": {
+      "source": 349,
+      "migrated": 348,
+      "redirected": 0,
+      "gone": 1,
+      "unexplained": []
+    },
+    "es": {
+      "source": 274,
+      "migrated": 24,
+      "redirected": 249,
+      "gone": 1,
+      "unexplained": []
+    },
+    "fr": {
+      "source": 275,
+      "migrated": 12,
+      "redirected": 262,
+      "gone": 1,
+      "unexplained": []
+    },
+    "pt": {
+      "source": 275,
+      "migrated": 23,
+      "redirected": 251,
+      "gone": 1,
+      "unexplained": []
+    },
+    "ru": {
+      "source": 275,
+      "migrated": 40,
+      "redirected": 234,
+      "gone": 1,
+      "unexplained": []
+    }
+  },
+  "unexplainedPosts": 0,
+  "pages": [
+    {
+      "slug": "(home)",
+      "permalink": "/",
+      "status": "NIET GEMIGREERD"
+    },
+    {
+      "slug": "about",
+      "permalink": "/about/",
+      "status": "gemigreerd"
+    },
+    {
+      "slug": "about/don-mcgreal",
+      "permalink": "/about/don-mcgreal/",
+      "status": "gemigreerd"
+    },
+    {
+      "slug": "about/get-involved",
+      "permalink": "/about/get-involved/",
+      "status": "gemigreerd"
+    },
+    {
+      "slug": "about/michael-mccullough",
+      "permalink": "/about/michael-mccullough/",
+      "status": "gemigreerd"
+    },
+    {
+      "slug": "about/michael-mccullough/michael-mccullough",
+      "permalink": "/about/michael-mccullough/michael-mccullough/",
+      "status": "redirect 301"
+    },
+    {
+      "slug": "about/michael-sahota",
+      "permalink": "/about/michael-sahota/",
+      "status": "gemigreerd"
+    },
+    {
+      "slug": "about/translation-project",
+      "permalink": "/about/translation-project/",
+      "status": "gemigreerd"
+    },
+    {
+      "slug": "agile-games-conference-2011",
+      "permalink": "/agile-games-conference-2011/",
+      "status": "gemigreerd"
+    },
+    {
+      "slug": "feed/atom",
+      "permalink": "/feed/atom/",
+      "status": "NIET GEMIGREERD"
+    },
+    {
+      "slug": "login",
+      "permalink": "/login/",
+      "status": "NIET GEMIGREERD"
+    },
+    {
+      "slug": "password-reset",
+      "permalink": "/password-reset/",
+      "status": "NIET GEMIGREERD"
+    },
+    {
+      "slug": "submit-game-reference",
+      "permalink": "/submit-game-reference/",
+      "status": "NIET GEMIGREERD"
+    },
+    {
+      "slug": "tastycupcakes-home",
+      "permalink": "/tastycupcakes-home/",
+      "status": "redirect 301"
+    }
+  ],
+  "taxonomy": {
+    "orphanTags": [
+      "experimentation",
+      "experiments",
+      "от-винта-2",
+      "от-винта-2-2021",
+      "райя-и-последний-дракон",
+      "райя-последний-дракон",
+      "рая-и-последний-дракон",
+      "рая-последний-дракон"
+    ],
+    "orphanTagCount": 8
+  },
+  "authorsReconciliation": {
+    "archivesWithoutAuthor": [
+      "craig-browncraigwbrown-net"
+    ],
+    "authorsWithoutArchive": [
+      "karen-favazza-spencer",
+      "vijay-bandaru",
+      "zvonimir-kriz"
+    ]
+  },
+  "media": {
+    "refsLocal": 57,
+    "refsExternal": 149,
+    "refsMissing": 6,
+    "filesInOutput": 201
+  },
+  "links": {
+    "internal": 152,
+    "external": 67,
+    "broken": [
+      {
+        "file": "posts/en/2009/06/what-were-they-thinking.md",
+        "target": "/2009/06/what-were-they-thinking/attachment/1/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2009/06/what-were-they-thinking.md",
+        "target": "/2009/06/what-were-they-thinking/attachment/6/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2009/06/what-were-they-thinking.md",
+        "target": "/2009/06/what-were-they-thinking/attachment/2/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2009/06/what-were-they-thinking.md",
+        "target": "/2009/06/what-were-they-thinking/attachment/5/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2009/06/what-were-they-thinking.md",
+        "target": "/2009/06/what-were-they-thinking/attachment/1/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2009/06/what-were-they-thinking.md",
+        "target": "/2009/06/what-were-they-thinking/attachment/6/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2009/06/what-were-they-thinking.md",
+        "target": "/2009/06/what-were-they-thinking/attachment/2/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2009/06/what-were-they-thinking.md",
+        "target": "/2009/06/what-were-they-thinking/attachment/5/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2009/09/sizing-game.md",
+        "target": "/2009/09/sizing-game/doggy-planning.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2009/09/sizing-game.md",
+        "target": "/2009/09/sizing-game/doggy-planning.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2009/09/sizing-game.md",
+        "target": "/2009/09/sizing-game/doggy-planning.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2009/09/sizing-game.md",
+        "target": "/2009/09/sizing-game/doggy-planning.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2011/01/your-turn-to-play-get-involved-with-tasty-cupcakes.md",
+        "target": "/vision.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2015/08/retrospective-darts.md",
+        "target": "/media/tdomf/5130/Retrospective.html",
+        "kind": "media"
+      },
+      {
+        "file": "posts/en/2019/01/witches-cooking-reunion.md",
+        "target": "/2019/01/witches-cooking-reunion/image/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEMAAABGCAYAAACXBynAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn9SURBVHhe7Zt5TFRJHse/ZqmORoaQRBFx3PEgCHquLqsrDiaGNSoMWp0FuM6WVejG%2BP%2BY4wJf4iuR8QjRt0/FMMoatRdMa64CqPjuMoEHBXvc1XwGF28uGnoo7Z%2BRTXT0E0fQAOz25/kl35Vr17x6vuqfu9X9QoV48CHQJG/Pjg%2BMWzwiWGDTwwbfGLY4BPDBp8YNvjEsMEnhg0%2BMWzwiWFDt5%2BbXLt2De/evYNKpYJWq0W/fv0QEhKCHj16wN/fX5bqGLqtGGfOnEFBQQEyMzOFGFbi4uIQGRmJ/v37CwsKCsLgwYMxe/ZsKEr7Onq3FSMlJQV5eXky5RoqT70nOTkZq1evlrme0e18RklJCfbv34/CwkKZ4xwSgIYODaeLFy%2BK69sM9YzuwsGDBxn3A9RT3TI%2BRNiGDRuY0WhkNTU17OXLl4yLwU6fPi3yPKVbiNHQ0MCys7OZRqNx2OjWjPcIWcPP7Nu3T5ybNWsW27p1q8x1j24xTA4cOIDFixeDP02Z45q1a9eC9yR6mDKnkSlTpgiLjo7GkCFDZK6bNGrSddy6dYvxt0GzJ96a0RAaPnw4O3z4sLy6Y%2BlSMU6dOsUmTpzosOGOjD9tZjab5dWOefHihfAZHz9%2BlDnu02ViHDt2zCNnqVar2aZNm%2BTVrWP1Gfn5%2BTLHfbrMZ5w8eRLcccqUa7gYWLp0qUy1TlRUFHQ6nYhWPaVLxOCvQXz48EGm3IOEq6iokCnH1NfXo0%2BfPrhy5QrGjh0rcz1A9pBOgd79OTk5bO7cuXbDwJVNmjSJ8bBc1uSYmzdvirIZGRkyxzM6VYysrCy7Rrprly9flrXYc%2BLECbZy5Ur25MkT4VeKiorkGc/oNDGqqqpYfHy8aBg5w5aNdWW5ubmyJnu4LxFlysrKZE7b6BQxSktL2fjx45saxucTTcfuWO/evRn3A7I2e7gvYW/evGHV1dViqLRVFK%2BLQTc2f/58h4101zZv3ixrc05xcbEon56eLnM8w%2BtvE5pNHj16VKbahslkkkfO6du3L3bu3IkZM2Zgx44dWL58uQjZ3UaK4jXOnj1r96Q9MZq8bdu2TdbmPikpKczPz4%2BlpqbKHNd4fXHn%2BPHjmDdvnkx5zvTp00XPohUtR/CwG8%2BePcOgQYNE/HL16lU8evRIxBkUqI0bNw5cUFnaBUISL0FrDDNnzrR72p4Yn4HK2hyTmZkpytGUPS0tTeStWrVK5JHTptiEQnRysK7wqhivXr1ier2%2BWeM8sfDwcJaXlydrc8zjx49ZUlKSKM99BVuzZg0bNWqUSNPEbvTo0eL4/Pnz8orW8aoYd%2B/eZYqiNDXOUxszZoysyTlv375l586dY3yoNF1LvoZe4eQ3SKDKykpZunW8KkZ7Ik5qDL0q3YXKWoVPTEwUvYWGDp8DyRKu8dqrldfdvsVZTlhYmDxyzvXr17F7927ExsaK9IABA7Bw4ULx%2BYAPNZHnFo2aeIfJkyfbPXF3jXrG06dPZU2OoQXgBQsWiAiVrklOThZDIy4uTkS9BE0OLRaLOHaFV8WgJbqWjXTXqFHkEJ1BPonK0SSN9w5WUFDAlixZIoYLLScSBoOh68WgG2iPGGQ9e/Zk9%2B/flzXaQ0uANC%2BxQm%2BvkSNHimt37dolBKKVdx7ByhLO8WrPSEhIsGugp8aDLlmbe5AjHTp0qLiWXq2e4DUH%2Bk12Np6XlspU26Eo0hNGjBiBnJwc8flh7969MtdNpCgdSGOXTP2qcTVLUdRsQIyefdZPx3pGBLJQnY6pEMLPtR5/WKf4NPa/XrRI1OfeqG8fXusZGSM%2Bx9fRYVg2NRT3Lhlw/5Iahd%2BG4sQ3eqxZEYBf/yoUMdHBCPS3f/L8vsSvRaXByHHjxXFn0OETNevjNW/M%2Bq%2BPwfDb0yI%2BmMpGv6thn%2BIFgj3BwLNMFboUHzHhCP/eI%2Bdexu/pIWpgJF9wtE/LBghKiNUdbUYP/8PmP2X7aJOftqreGXWajDUwrRlMVQ/XoZlai1000z4lBUBpTwAiDTCGFCFsKQKaOIseP%2BDDv9cq0eQnxk6jQVDo3sgQquFnjUA1eXAhNnAn7bLmr2LV4ZJxU%2Bv8PF9FYIje0DpZ0btfxiUMg2Up/zZXlegfBcOS5kO5gYjerJALOwfgTmDIzH5s3BE89m2ylCDqroG1Jp5ZSr3FnY6gg4Vo6ysDDdu3EDaxm3YeK4Y/6ozIXAI/xMfVDAa6mD05w1TFNDHdrWaD4NaLQwlGlQaGSrqLahuYDAaLWI8hARpwYLDcf67H3Ei869oMLn/UbqtOB0mdIoHT2JDiNWs0FIcD5dx7949PHjwQJS9cOEC7ty50/SB6PMYFe5%2B7wc/oxp1JWo0vNJBqQpE7VMF%2Bikfoe1rxqcDevi9CYNapYD5mfgvv1DR4EhJNYo%2BGHHq4Wu8N5mxYEEq5n/1O0ybOlXU7Q1cikHYikB5lP706RNyc3Nx6NAh5Ofny7PNSRyq4Ic8/qRpHxr1wZogmN7546cLgdAPN0DftwaV2SHQlsXADxqYA%2BphtphhUIdgUu4jFJc1fkHT8D/POw9C9XpM/PJLsXfLeh/0yyNRrF%2B/HjzitXtonuDSgVZWVooNZnQDly5dQjYPpuhTHy23VVVVifOOP/up8NsvFPx9HxAVwx2nQq/QOt4q/mPgad4F3heq8Oa4FkqDns/M/FBh8ceRh29R%2BK4aDyvqUc97BJeS/23eQ/ldOrvTXr16ITQ0VBzTN9k5c%2BaIDXCe4FAMahx1d2pwVlaW2HlHxdxdpW5Exf0Cw7gvgvH71AhEhlbzP2bk9agQoDGjdxTDpu1B%2BNu35TzKIk9JjVXBzKj57Yc%2BPtO0PiIiAvHx8Rg4cKA84wQSoyX0PZRXRiK12agH82fKjbYdBHKjr2habgHcNGxgTAALDaJ8P27213ekWbczuZq92r1NysvLRVxfXV0tc9qK1enyt4bKuvWAxggdm/H8tRGVtfX8XGOv8CbW1XGXvkSK0sTt27dZZGSkQ4XbbtbPifRrtZZlvGexsbFOlwKs2PUMGl/Lli2TqY6C7sn6a7XOhbdVHrWOnRj01qB92f8r0BDZuHGj2GbtksYO0hzaJDZt2jSP9lx1V5swYQLjflC2zDmtxhn0qe758%2BdYtGiRiDTJsf4SaNkDaIV83bp1MuUcl0EXQRvaKd4gXr9%2BLfZMdTeSkpKQmJiILVu2yJw2QGJ4Ag/DxRduurQ72LBhwxgXoE37PlviVs9oCUWmxcXFMvUzK1asAPc3MtUI7cDzLHJtTnBwsDxqTnp6uljvpJDb423RrdAmMVqDRGq5t5M2q6SlpYnwnmbArkhISGgKjmjzCf3zjSNob3hH06FiOGPPnj0oKiqSKcfQZCsjI0OmOp9OE%2BOXgF3Q9f%2BMTwwbfGLY4BPDBp8YTQD/Bcs/K9ElbfioAAAAAElFTkSuQmCC.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2019/01/witches-cooking-reunion.md",
+        "target": "/2019/01/witches-cooking-reunion/image/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEMAAABGCAYAAACXBynAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn9SURBVHhe7Zt5TFRJHse/ZqmORoaQRBFx3PEgCHquLqsrDiaGNSoMWp0FuM6WVejG%2BP%2BY4wJf4iuR8QjRt0/FMMoatRdMa64CqPjuMoEHBXvc1XwGF28uGnoo7Z%2BRTXT0E0fQAOz25/kl35Vr17x6vuqfu9X9QoV48CHQJG/Pjg%2BMWzwiWGDTwwbfGLY4BPDBp8YNvjEsMEnhg0%2BMWzwiWFDt5%2BbXLt2De/evYNKpYJWq0W/fv0QEhKCHj16wN/fX5bqGLqtGGfOnEFBQQEyMzOFGFbi4uIQGRmJ/v37CwsKCsLgwYMxe/ZsKEr7Onq3FSMlJQV5eXky5RoqT70nOTkZq1evlrme0e18RklJCfbv34/CwkKZ4xwSgIYODaeLFy%2BK69sM9YzuwsGDBxn3A9RT3TI%2BRNiGDRuY0WhkNTU17OXLl4yLwU6fPi3yPKVbiNHQ0MCys7OZRqNx2OjWjPcIWcPP7Nu3T5ybNWsW27p1q8x1j24xTA4cOIDFixeDP02Z45q1a9eC9yR6mDKnkSlTpgiLjo7GkCFDZK6bNGrSddy6dYvxt0GzJ96a0RAaPnw4O3z4sLy6Y%2BlSMU6dOsUmTpzosOGOjD9tZjab5dWOefHihfAZHz9%2BlDnu02ViHDt2zCNnqVar2aZNm%2BTVrWP1Gfn5%2BTLHfbrMZ5w8eRLcccqUa7gYWLp0qUy1TlRUFHQ6nYhWPaVLxOCvQXz48EGm3IOEq6iokCnH1NfXo0%2BfPrhy5QrGjh0rcz1A9pBOgd79OTk5bO7cuXbDwJVNmjSJ8bBc1uSYmzdvirIZGRkyxzM6VYysrCy7Rrprly9flrXYc%2BLECbZy5Ur25MkT4VeKiorkGc/oNDGqqqpYfHy8aBg5w5aNdWW5ubmyJnu4LxFlysrKZE7b6BQxSktL2fjx45saxucTTcfuWO/evRn3A7I2e7gvYW/evGHV1dViqLRVFK%2BLQTc2f/58h4101zZv3ixrc05xcbEon56eLnM8w%2BtvE5pNHj16VKbahslkkkfO6du3L3bu3IkZM2Zgx44dWL58uQjZ3UaK4jXOnj1r96Q9MZq8bdu2TdbmPikpKczPz4%2BlpqbKHNd4fXHn%2BPHjmDdvnkx5zvTp00XPohUtR/CwG8%2BePcOgQYNE/HL16lU8evRIxBkUqI0bNw5cUFnaBUISL0FrDDNnzrR72p4Yn4HK2hyTmZkpytGUPS0tTeStWrVK5JHTptiEQnRysK7wqhivXr1ier2%2BWeM8sfDwcJaXlydrc8zjx49ZUlKSKM99BVuzZg0bNWqUSNPEbvTo0eL4/Pnz8orW8aoYd%2B/eZYqiNDXOUxszZoysyTlv375l586dY3yoNF1LvoZe4eQ3SKDKykpZunW8KkZ7Ik5qDL0q3YXKWoVPTEwUvYWGDp8DyRKu8dqrldfdvsVZTlhYmDxyzvXr17F7927ExsaK9IABA7Bw4ULx%2BYAPNZHnFo2aeIfJkyfbPXF3jXrG06dPZU2OoQXgBQsWiAiVrklOThZDIy4uTkS9BE0OLRaLOHaFV8WgJbqWjXTXqFHkEJ1BPonK0SSN9w5WUFDAlixZIoYLLScSBoOh68WgG2iPGGQ9e/Zk9%2B/flzXaQ0uANC%2BxQm%2BvkSNHimt37dolBKKVdx7ByhLO8WrPSEhIsGugp8aDLlmbe5AjHTp0qLiWXq2e4DUH%2Bk12Np6XlspU26Eo0hNGjBiBnJwc8flh7969MtdNpCgdSGOXTP2qcTVLUdRsQIyefdZPx3pGBLJQnY6pEMLPtR5/WKf4NPa/XrRI1OfeqG8fXusZGSM%2Bx9fRYVg2NRT3Lhlw/5Iahd%2BG4sQ3eqxZEYBf/yoUMdHBCPS3f/L8vsSvRaXByHHjxXFn0OETNevjNW/M%2Bq%2BPwfDb0yI%2BmMpGv6thn%2BIFgj3BwLNMFboUHzHhCP/eI%2Bdexu/pIWpgJF9wtE/LBghKiNUdbUYP/8PmP2X7aJOftqreGXWajDUwrRlMVQ/XoZlai1000z4lBUBpTwAiDTCGFCFsKQKaOIseP%2BDDv9cq0eQnxk6jQVDo3sgQquFnjUA1eXAhNnAn7bLmr2LV4ZJxU%2Bv8PF9FYIje0DpZ0btfxiUMg2Up/zZXlegfBcOS5kO5gYjerJALOwfgTmDIzH5s3BE89m2ylCDqroG1Jp5ZSr3FnY6gg4Vo6ysDDdu3EDaxm3YeK4Y/6ozIXAI/xMfVDAa6mD05w1TFNDHdrWaD4NaLQwlGlQaGSrqLahuYDAaLWI8hARpwYLDcf67H3Ei869oMLn/UbqtOB0mdIoHT2JDiNWs0FIcD5dx7949PHjwQJS9cOEC7ty50/SB6PMYFe5%2B7wc/oxp1JWo0vNJBqQpE7VMF%2Bikfoe1rxqcDevi9CYNapYD5mfgvv1DR4EhJNYo%2BGHHq4Wu8N5mxYEEq5n/1O0ybOlXU7Q1cikHYikB5lP706RNyc3Nx6NAh5Ofny7PNSRyq4Ic8/qRpHxr1wZogmN7546cLgdAPN0DftwaV2SHQlsXADxqYA%2BphtphhUIdgUu4jFJc1fkHT8D/POw9C9XpM/PJLsXfLeh/0yyNRrF%2B/HjzitXtonuDSgVZWVooNZnQDly5dQjYPpuhTHy23VVVVifOOP/up8NsvFPx9HxAVwx2nQq/QOt4q/mPgad4F3heq8Oa4FkqDns/M/FBh8ceRh29R%2BK4aDyvqUc97BJeS/23eQ/ldOrvTXr16ITQ0VBzTN9k5c%2BaIDXCe4FAMahx1d2pwVlaW2HlHxdxdpW5Exf0Cw7gvgvH71AhEhlbzP2bk9agQoDGjdxTDpu1B%2BNu35TzKIk9JjVXBzKj57Yc%2BPtO0PiIiAvHx8Rg4cKA84wQSoyX0PZRXRiK12agH82fKjbYdBHKjr2habgHcNGxgTAALDaJ8P27213ekWbczuZq92r1NysvLRVxfXV0tc9qK1enyt4bKuvWAxggdm/H8tRGVtfX8XGOv8CbW1XGXvkSK0sTt27dZZGSkQ4XbbtbPifRrtZZlvGexsbFOlwKs2PUMGl/Lli2TqY6C7sn6a7XOhbdVHrWOnRj01qB92f8r0BDZuHGj2GbtksYO0hzaJDZt2jSP9lx1V5swYQLjflC2zDmtxhn0qe758%2BdYtGiRiDTJsf4SaNkDaIV83bp1MuUcl0EXQRvaKd4gXr9%2BLfZMdTeSkpKQmJiILVu2yJw2QGJ4Ag/DxRduurQ72LBhwxgXoE37PlviVs9oCUWmxcXFMvUzK1asAPc3MtUI7cDzLHJtTnBwsDxqTnp6uljvpJDb423RrdAmMVqDRGq5t5M2q6SlpYnwnmbArkhISGgKjmjzCf3zjSNob3hH06FiOGPPnj0oKiqSKcfQZCsjI0OmOp9OE%2BOXgF3Q9f%2BMTwwbfGLY4BPDBp8YTQD/Bcs/K9ElbfioAAAAAElFTkSuQmCC.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2019/01/witches-cooking-reunion.md",
+        "target": "/2019/01/witches-cooking-reunion/image/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEMAAABGCAYAAACXBynAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn9SURBVHhe7Zt5TFRJHse/ZqmORoaQRBFx3PEgCHquLqsrDiaGNSoMWp0FuM6WVejG%2BP%2BY4wJf4iuR8QjRt0/FMMoatRdMa64CqPjuMoEHBXvc1XwGF28uGnoo7Z%2BRTXT0E0fQAOz25/kl35Vr17x6vuqfu9X9QoV48CHQJG/Pjg%2BMWzwiWGDTwwbfGLY4BPDBp8YNvjEsMEnhg0%2BMWzwiWFDt5%2BbXLt2De/evYNKpYJWq0W/fv0QEhKCHj16wN/fX5bqGLqtGGfOnEFBQQEyMzOFGFbi4uIQGRmJ/v37CwsKCsLgwYMxe/ZsKEr7Onq3FSMlJQV5eXky5RoqT70nOTkZq1evlrme0e18RklJCfbv34/CwkKZ4xwSgIYODaeLFy%2BK69sM9YzuwsGDBxn3A9RT3TI%2BRNiGDRuY0WhkNTU17OXLl4yLwU6fPi3yPKVbiNHQ0MCys7OZRqNx2OjWjPcIWcPP7Nu3T5ybNWsW27p1q8x1j24xTA4cOIDFixeDP02Z45q1a9eC9yR6mDKnkSlTpgiLjo7GkCFDZK6bNGrSddy6dYvxt0GzJ96a0RAaPnw4O3z4sLy6Y%2BlSMU6dOsUmTpzosOGOjD9tZjab5dWOefHihfAZHz9%2BlDnu02ViHDt2zCNnqVar2aZNm%2BTVrWP1Gfn5%2BTLHfbrMZ5w8eRLcccqUa7gYWLp0qUy1TlRUFHQ6nYhWPaVLxOCvQXz48EGm3IOEq6iokCnH1NfXo0%2BfPrhy5QrGjh0rcz1A9pBOgd79OTk5bO7cuXbDwJVNmjSJ8bBc1uSYmzdvirIZGRkyxzM6VYysrCy7Rrprly9flrXYc%2BLECbZy5Ur25MkT4VeKiorkGc/oNDGqqqpYfHy8aBg5w5aNdWW5ubmyJnu4LxFlysrKZE7b6BQxSktL2fjx45saxucTTcfuWO/evRn3A7I2e7gvYW/evGHV1dViqLRVFK%2BLQTc2f/58h4101zZv3ixrc05xcbEon56eLnM8w%2BtvE5pNHj16VKbahslkkkfO6du3L3bu3IkZM2Zgx44dWL58uQjZ3UaK4jXOnj1r96Q9MZq8bdu2TdbmPikpKczPz4%2BlpqbKHNd4fXHn%2BPHjmDdvnkx5zvTp00XPohUtR/CwG8%2BePcOgQYNE/HL16lU8evRIxBkUqI0bNw5cUFnaBUISL0FrDDNnzrR72p4Yn4HK2hyTmZkpytGUPS0tTeStWrVK5JHTptiEQnRysK7wqhivXr1ier2%2BWeM8sfDwcJaXlydrc8zjx49ZUlKSKM99BVuzZg0bNWqUSNPEbvTo0eL4/Pnz8orW8aoYd%2B/eZYqiNDXOUxszZoysyTlv375l586dY3yoNF1LvoZe4eQ3SKDKykpZunW8KkZ7Ik5qDL0q3YXKWoVPTEwUvYWGDp8DyRKu8dqrldfdvsVZTlhYmDxyzvXr17F7927ExsaK9IABA7Bw4ULx%2BYAPNZHnFo2aeIfJkyfbPXF3jXrG06dPZU2OoQXgBQsWiAiVrklOThZDIy4uTkS9BE0OLRaLOHaFV8WgJbqWjXTXqFHkEJ1BPonK0SSN9w5WUFDAlixZIoYLLScSBoOh68WgG2iPGGQ9e/Zk9%2B/flzXaQ0uANC%2BxQm%2BvkSNHimt37dolBKKVdx7ByhLO8WrPSEhIsGugp8aDLlmbe5AjHTp0qLiWXq2e4DUH%2Bk12Np6XlspU26Eo0hNGjBiBnJwc8flh7969MtdNpCgdSGOXTP2qcTVLUdRsQIyefdZPx3pGBLJQnY6pEMLPtR5/WKf4NPa/XrRI1OfeqG8fXusZGSM%2Bx9fRYVg2NRT3Lhlw/5Iahd%2BG4sQ3eqxZEYBf/yoUMdHBCPS3f/L8vsSvRaXByHHjxXFn0OETNevjNW/M%2Bq%2BPwfDb0yI%2BmMpGv6thn%2BIFgj3BwLNMFboUHzHhCP/eI%2Bdexu/pIWpgJF9wtE/LBghKiNUdbUYP/8PmP2X7aJOftqreGXWajDUwrRlMVQ/XoZlai1000z4lBUBpTwAiDTCGFCFsKQKaOIseP%2BDDv9cq0eQnxk6jQVDo3sgQquFnjUA1eXAhNnAn7bLmr2LV4ZJxU%2Bv8PF9FYIje0DpZ0btfxiUMg2Up/zZXlegfBcOS5kO5gYjerJALOwfgTmDIzH5s3BE89m2ylCDqroG1Jp5ZSr3FnY6gg4Vo6ysDDdu3EDaxm3YeK4Y/6ozIXAI/xMfVDAa6mD05w1TFNDHdrWaD4NaLQwlGlQaGSrqLahuYDAaLWI8hARpwYLDcf67H3Ei869oMLn/UbqtOB0mdIoHT2JDiNWs0FIcD5dx7949PHjwQJS9cOEC7ty50/SB6PMYFe5%2B7wc/oxp1JWo0vNJBqQpE7VMF%2Bikfoe1rxqcDevi9CYNapYD5mfgvv1DR4EhJNYo%2BGHHq4Wu8N5mxYEEq5n/1O0ybOlXU7Q1cikHYikB5lP706RNyc3Nx6NAh5Ofny7PNSRyq4Ic8/qRpHxr1wZogmN7546cLgdAPN0DftwaV2SHQlsXADxqYA%2BphtphhUIdgUu4jFJc1fkHT8D/POw9C9XpM/PJLsXfLeh/0yyNRrF%2B/HjzitXtonuDSgVZWVooNZnQDly5dQjYPpuhTHy23VVVVifOOP/up8NsvFPx9HxAVwx2nQq/QOt4q/mPgad4F3heq8Oa4FkqDns/M/FBh8ceRh29R%2BK4aDyvqUc97BJeS/23eQ/ldOrvTXr16ITQ0VBzTN9k5c%2BaIDXCe4FAMahx1d2pwVlaW2HlHxdxdpW5Exf0Cw7gvgvH71AhEhlbzP2bk9agQoDGjdxTDpu1B%2BNu35TzKIk9JjVXBzKj57Yc%2BPtO0PiIiAvHx8Rg4cKA84wQSoyX0PZRXRiK12agH82fKjbYdBHKjr2habgHcNGxgTAALDaJ8P27213ekWbczuZq92r1NysvLRVxfXV0tc9qK1enyt4bKuvWAxggdm/H8tRGVtfX8XGOv8CbW1XGXvkSK0sTt27dZZGSkQ4XbbtbPifRrtZZlvGexsbFOlwKs2PUMGl/Lli2TqY6C7sn6a7XOhbdVHrWOnRj01qB92f8r0BDZuHGj2GbtksYO0hzaJDZt2jSP9lx1V5swYQLjflC2zDmtxhn0qe758%2BdYtGiRiDTJsf4SaNkDaIV83bp1MuUcl0EXQRvaKd4gXr9%2BLfZMdTeSkpKQmJiILVu2yJw2QGJ4Ag/DxRduurQ72LBhwxgXoE37PlviVs9oCUWmxcXFMvUzK1asAPc3MtUI7cDzLHJtTnBwsDxqTnp6uljvpJDb423RrdAmMVqDRGq5t5M2q6SlpYnwnmbArkhISGgKjmjzCf3zjSNob3hH06FiOGPPnj0oKiqSKcfQZCsjI0OmOp9OE%2BOXgF3Q9f%2BMTwwbfGLY4BPDBp8YTQD/Bcs/K9ElbfioAAAAAElFTkSuQmCC.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2019/01/witches-cooking-reunion.md",
+        "target": "/2019/01/witches-cooking-reunion/image/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEMAAABGCAYAAACXBynAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn9SURBVHhe7Zt5TFRJHse/ZqmORoaQRBFx3PEgCHquLqsrDiaGNSoMWp0FuM6WVejG%2BP%2BY4wJf4iuR8QjRt0/FMMoatRdMa64CqPjuMoEHBXvc1XwGF28uGnoo7Z%2BRTXT0E0fQAOz25/kl35Vr17x6vuqfu9X9QoV48CHQJG/Pjg%2BMWzwiWGDTwwbfGLY4BPDBp8YNvjEsMEnhg0%2BMWzwiWFDt5%2BbXLt2De/evYNKpYJWq0W/fv0QEhKCHj16wN/fX5bqGLqtGGfOnEFBQQEyMzOFGFbi4uIQGRmJ/v37CwsKCsLgwYMxe/ZsKEr7Onq3FSMlJQV5eXky5RoqT70nOTkZq1evlrme0e18RklJCfbv34/CwkKZ4xwSgIYODaeLFy%2BK69sM9YzuwsGDBxn3A9RT3TI%2BRNiGDRuY0WhkNTU17OXLl4yLwU6fPi3yPKVbiNHQ0MCys7OZRqNx2OjWjPcIWcPP7Nu3T5ybNWsW27p1q8x1j24xTA4cOIDFixeDP02Z45q1a9eC9yR6mDKnkSlTpgiLjo7GkCFDZK6bNGrSddy6dYvxt0GzJ96a0RAaPnw4O3z4sLy6Y%2BlSMU6dOsUmTpzosOGOjD9tZjab5dWOefHihfAZHz9%2BlDnu02ViHDt2zCNnqVar2aZNm%2BTVrWP1Gfn5%2BTLHfbrMZ5w8eRLcccqUa7gYWLp0qUy1TlRUFHQ6nYhWPaVLxOCvQXz48EGm3IOEq6iokCnH1NfXo0%2BfPrhy5QrGjh0rcz1A9pBOgd79OTk5bO7cuXbDwJVNmjSJ8bBc1uSYmzdvirIZGRkyxzM6VYysrCy7Rrprly9flrXYc%2BLECbZy5Ur25MkT4VeKiorkGc/oNDGqqqpYfHy8aBg5w5aNdWW5ubmyJnu4LxFlysrKZE7b6BQxSktL2fjx45saxucTTcfuWO/evRn3A7I2e7gvYW/evGHV1dViqLRVFK%2BLQTc2f/58h4101zZv3ixrc05xcbEon56eLnM8w%2BtvE5pNHj16VKbahslkkkfO6du3L3bu3IkZM2Zgx44dWL58uQjZ3UaK4jXOnj1r96Q9MZq8bdu2TdbmPikpKczPz4%2BlpqbKHNd4fXHn%2BPHjmDdvnkx5zvTp00XPohUtR/CwG8%2BePcOgQYNE/HL16lU8evRIxBkUqI0bNw5cUFnaBUISL0FrDDNnzrR72p4Yn4HK2hyTmZkpytGUPS0tTeStWrVK5JHTptiEQnRysK7wqhivXr1ier2%2BWeM8sfDwcJaXlydrc8zjx49ZUlKSKM99BVuzZg0bNWqUSNPEbvTo0eL4/Pnz8orW8aoYd%2B/eZYqiNDXOUxszZoysyTlv375l586dY3yoNF1LvoZe4eQ3SKDKykpZunW8KkZ7Ik5qDL0q3YXKWoVPTEwUvYWGDp8DyRKu8dqrldfdvsVZTlhYmDxyzvXr17F7927ExsaK9IABA7Bw4ULx%2BYAPNZHnFo2aeIfJkyfbPXF3jXrG06dPZU2OoQXgBQsWiAiVrklOThZDIy4uTkS9BE0OLRaLOHaFV8WgJbqWjXTXqFHkEJ1BPonK0SSN9w5WUFDAlixZIoYLLScSBoOh68WgG2iPGGQ9e/Zk9%2B/flzXaQ0uANC%2BxQm%2BvkSNHimt37dolBKKVdx7ByhLO8WrPSEhIsGugp8aDLlmbe5AjHTp0qLiWXq2e4DUH%2Bk12Np6XlspU26Eo0hNGjBiBnJwc8flh7969MtdNpCgdSGOXTP2qcTVLUdRsQIyefdZPx3pGBLJQnY6pEMLPtR5/WKf4NPa/XrRI1OfeqG8fXusZGSM%2Bx9fRYVg2NRT3Lhlw/5Iahd%2BG4sQ3eqxZEYBf/yoUMdHBCPS3f/L8vsSvRaXByHHjxXFn0OETNevjNW/M%2Bq%2BPwfDb0yI%2BmMpGv6thn%2BIFgj3BwLNMFboUHzHhCP/eI%2Bdexu/pIWpgJF9wtE/LBghKiNUdbUYP/8PmP2X7aJOftqreGXWajDUwrRlMVQ/XoZlai1000z4lBUBpTwAiDTCGFCFsKQKaOIseP%2BDDv9cq0eQnxk6jQVDo3sgQquFnjUA1eXAhNnAn7bLmr2LV4ZJxU%2Bv8PF9FYIje0DpZ0btfxiUMg2Up/zZXlegfBcOS5kO5gYjerJALOwfgTmDIzH5s3BE89m2ylCDqroG1Jp5ZSr3FnY6gg4Vo6ysDDdu3EDaxm3YeK4Y/6ozIXAI/xMfVDAa6mD05w1TFNDHdrWaD4NaLQwlGlQaGSrqLahuYDAaLWI8hARpwYLDcf67H3Ei869oMLn/UbqtOB0mdIoHT2JDiNWs0FIcD5dx7949PHjwQJS9cOEC7ty50/SB6PMYFe5%2B7wc/oxp1JWo0vNJBqQpE7VMF%2Bikfoe1rxqcDevi9CYNapYD5mfgvv1DR4EhJNYo%2BGHHq4Wu8N5mxYEEq5n/1O0ybOlXU7Q1cikHYikB5lP706RNyc3Nx6NAh5Ofny7PNSRyq4Ic8/qRpHxr1wZogmN7546cLgdAPN0DftwaV2SHQlsXADxqYA%2BphtphhUIdgUu4jFJc1fkHT8D/POw9C9XpM/PJLsXfLeh/0yyNRrF%2B/HjzitXtonuDSgVZWVooNZnQDly5dQjYPpuhTHy23VVVVifOOP/up8NsvFPx9HxAVwx2nQq/QOt4q/mPgad4F3heq8Oa4FkqDns/M/FBh8ceRh29R%2BK4aDyvqUc97BJeS/23eQ/ldOrvTXr16ITQ0VBzTN9k5c%2BaIDXCe4FAMahx1d2pwVlaW2HlHxdxdpW5Exf0Cw7gvgvH71AhEhlbzP2bk9agQoDGjdxTDpu1B%2BNu35TzKIk9JjVXBzKj57Yc%2BPtO0PiIiAvHx8Rg4cKA84wQSoyX0PZRXRiK12agH82fKjbYdBHKjr2habgHcNGxgTAALDaJ8P27213ekWbczuZq92r1NysvLRVxfXV0tc9qK1enyt4bKuvWAxggdm/H8tRGVtfX8XGOv8CbW1XGXvkSK0sTt27dZZGSkQ4XbbtbPifRrtZZlvGexsbFOlwKs2PUMGl/Lli2TqY6C7sn6a7XOhbdVHrWOnRj01qB92f8r0BDZuHGj2GbtksYO0hzaJDZt2jSP9lx1V5swYQLjflC2zDmtxhn0qe758%2BdYtGiRiDTJsf4SaNkDaIV83bp1MuUcl0EXQRvaKd4gXr9%2BLfZMdTeSkpKQmJiILVu2yJw2QGJ4Ag/DxRduurQ72LBhwxgXoE37PlviVs9oCUWmxcXFMvUzK1asAPc3MtUI7cDzLHJtTnBwsDxqTnp6uljvpJDb423RrdAmMVqDRGq5t5M2q6SlpYnwnmbArkhISGgKjmjzCf3zjSNob3hH06FiOGPPnj0oKiqSKcfQZCsjI0OmOp9OE%2BOXgF3Q9f%2BMTwwbfGLY4BPDBp8YTQD/Bcs/K9ElbfioAAAAAElFTkSuQmCC.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2019/01/witches-cooking-reunion.md",
+        "target": "/2019/01/witches-cooking-reunion/image/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEMAAABGCAYAAACXBynAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn9SURBVHhe7Zt5TFRJHse/ZqmORoaQRBFx3PEgCHquLqsrDiaGNSoMWp0FuM6WVejG%2BP%2BY4wJf4iuR8QjRt0/FMMoatRdMa64CqPjuMoEHBXvc1XwGF28uGnoo7Z%2BRTXT0E0fQAOz25/kl35Vr17x6vuqfu9X9QoV48CHQJG/Pjg%2BMWzwiWGDTwwbfGLY4BPDBp8YNvjEsMEnhg0%2BMWzwiWFDt5%2BbXLt2De/evYNKpYJWq0W/fv0QEhKCHj16wN/fX5bqGLqtGGfOnEFBQQEyMzOFGFbi4uIQGRmJ/v37CwsKCsLgwYMxe/ZsKEr7Onq3FSMlJQV5eXky5RoqT70nOTkZq1evlrme0e18RklJCfbv34/CwkKZ4xwSgIYODaeLFy%2BK69sM9YzuwsGDBxn3A9RT3TI%2BRNiGDRuY0WhkNTU17OXLl4yLwU6fPi3yPKVbiNHQ0MCys7OZRqNx2OjWjPcIWcPP7Nu3T5ybNWsW27p1q8x1j24xTA4cOIDFixeDP02Z45q1a9eC9yR6mDKnkSlTpgiLjo7GkCFDZK6bNGrSddy6dYvxt0GzJ96a0RAaPnw4O3z4sLy6Y%2BlSMU6dOsUmTpzosOGOjD9tZjab5dWOefHihfAZHz9%2BlDnu02ViHDt2zCNnqVar2aZNm%2BTVrWP1Gfn5%2BTLHfbrMZ5w8eRLcccqUa7gYWLp0qUy1TlRUFHQ6nYhWPaVLxOCvQXz48EGm3IOEq6iokCnH1NfXo0%2BfPrhy5QrGjh0rcz1A9pBOgd79OTk5bO7cuXbDwJVNmjSJ8bBc1uSYmzdvirIZGRkyxzM6VYysrCy7Rrprly9flrXYc%2BLECbZy5Ur25MkT4VeKiorkGc/oNDGqqqpYfHy8aBg5w5aNdWW5ubmyJnu4LxFlysrKZE7b6BQxSktL2fjx45saxucTTcfuWO/evRn3A7I2e7gvYW/evGHV1dViqLRVFK%2BLQTc2f/58h4101zZv3ixrc05xcbEon56eLnM8w%2BtvE5pNHj16VKbahslkkkfO6du3L3bu3IkZM2Zgx44dWL58uQjZ3UaK4jXOnj1r96Q9MZq8bdu2TdbmPikpKczPz4%2BlpqbKHNd4fXHn%2BPHjmDdvnkx5zvTp00XPohUtR/CwG8%2BePcOgQYNE/HL16lU8evRIxBkUqI0bNw5cUFnaBUISL0FrDDNnzrR72p4Yn4HK2hyTmZkpytGUPS0tTeStWrVK5JHTptiEQnRysK7wqhivXr1ier2%2BWeM8sfDwcJaXlydrc8zjx49ZUlKSKM99BVuzZg0bNWqUSNPEbvTo0eL4/Pnz8orW8aoYd%2B/eZYqiNDXOUxszZoysyTlv375l586dY3yoNF1LvoZe4eQ3SKDKykpZunW8KkZ7Ik5qDL0q3YXKWoVPTEwUvYWGDp8DyRKu8dqrldfdvsVZTlhYmDxyzvXr17F7927ExsaK9IABA7Bw4ULx%2BYAPNZHnFo2aeIfJkyfbPXF3jXrG06dPZU2OoQXgBQsWiAiVrklOThZDIy4uTkS9BE0OLRaLOHaFV8WgJbqWjXTXqFHkEJ1BPonK0SSN9w5WUFDAlixZIoYLLScSBoOh68WgG2iPGGQ9e/Zk9%2B/flzXaQ0uANC%2BxQm%2BvkSNHimt37dolBKKVdx7ByhLO8WrPSEhIsGugp8aDLlmbe5AjHTp0qLiWXq2e4DUH%2Bk12Np6XlspU26Eo0hNGjBiBnJwc8flh7969MtdNpCgdSGOXTP2qcTVLUdRsQIyefdZPx3pGBLJQnY6pEMLPtR5/WKf4NPa/XrRI1OfeqG8fXusZGSM%2Bx9fRYVg2NRT3Lhlw/5Iahd%2BG4sQ3eqxZEYBf/yoUMdHBCPS3f/L8vsSvRaXByHHjxXFn0OETNevjNW/M%2Bq%2BPwfDb0yI%2BmMpGv6thn%2BIFgj3BwLNMFboUHzHhCP/eI%2Bdexu/pIWpgJF9wtE/LBghKiNUdbUYP/8PmP2X7aJOftqreGXWajDUwrRlMVQ/XoZlai1000z4lBUBpTwAiDTCGFCFsKQKaOIseP%2BDDv9cq0eQnxk6jQVDo3sgQquFnjUA1eXAhNnAn7bLmr2LV4ZJxU%2Bv8PF9FYIje0DpZ0btfxiUMg2Up/zZXlegfBcOS5kO5gYjerJALOwfgTmDIzH5s3BE89m2ylCDqroG1Jp5ZSr3FnY6gg4Vo6ysDDdu3EDaxm3YeK4Y/6ozIXAI/xMfVDAa6mD05w1TFNDHdrWaD4NaLQwlGlQaGSrqLahuYDAaLWI8hARpwYLDcf67H3Ei869oMLn/UbqtOB0mdIoHT2JDiNWs0FIcD5dx7949PHjwQJS9cOEC7ty50/SB6PMYFe5%2B7wc/oxp1JWo0vNJBqQpE7VMF%2Bikfoe1rxqcDevi9CYNapYD5mfgvv1DR4EhJNYo%2BGHHq4Wu8N5mxYEEq5n/1O0ybOlXU7Q1cikHYikB5lP706RNyc3Nx6NAh5Ofny7PNSRyq4Ic8/qRpHxr1wZogmN7546cLgdAPN0DftwaV2SHQlsXADxqYA%2BphtphhUIdgUu4jFJc1fkHT8D/POw9C9XpM/PJLsXfLeh/0yyNRrF%2B/HjzitXtonuDSgVZWVooNZnQDly5dQjYPpuhTHy23VVVVifOOP/up8NsvFPx9HxAVwx2nQq/QOt4q/mPgad4F3heq8Oa4FkqDns/M/FBh8ceRh29R%2BK4aDyvqUc97BJeS/23eQ/ldOrvTXr16ITQ0VBzTN9k5c%2BaIDXCe4FAMahx1d2pwVlaW2HlHxdxdpW5Exf0Cw7gvgvH71AhEhlbzP2bk9agQoDGjdxTDpu1B%2BNu35TzKIk9JjVXBzKj57Yc%2BPtO0PiIiAvHx8Rg4cKA84wQSoyX0PZRXRiK12agH82fKjbYdBHKjr2habgHcNGxgTAALDaJ8P27213ekWbczuZq92r1NysvLRVxfXV0tc9qK1enyt4bKuvWAxggdm/H8tRGVtfX8XGOv8CbW1XGXvkSK0sTt27dZZGSkQ4XbbtbPifRrtZZlvGexsbFOlwKs2PUMGl/Lli2TqY6C7sn6a7XOhbdVHrWOnRj01qB92f8r0BDZuHGj2GbtksYO0hzaJDZt2jSP9lx1V5swYQLjflC2zDmtxhn0qe758%2BdYtGiRiDTJsf4SaNkDaIV83bp1MuUcl0EXQRvaKd4gXr9%2BLfZMdTeSkpKQmJiILVu2yJw2QGJ4Ag/DxRduurQ72LBhwxgXoE37PlviVs9oCUWmxcXFMvUzK1asAPc3MtUI7cDzLHJtTnBwsDxqTnp6uljvpJDb423RrdAmMVqDRGq5t5M2q6SlpYnwnmbArkhISGgKjmjzCf3zjSNob3hH06FiOGPPnj0oKiqSKcfQZCsjI0OmOp9OE%2BOXgF3Q9f%2BMTwwbfGLY4BPDBp8YTQD/Bcs/K9ElbfioAAAAAElFTkSuQmCC.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2019/02/virtual-cards-against-agility.md",
+        "target": "/2019/02/virtual-cards-against-agility/comment-page-1/douglas.husovsky%40gmail.com",
+        "kind": "page"
+      },
+      {
+        "file": "posts/en/2019/02/virtual-cards-for-agility.md",
+        "target": "/2019/02/virtual-cards-for-agility/www.linkedin.com/in/douglas-husovsk.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/es/2009/06/what-were-they-thinking.md",
+        "target": "/es/2009/06/what-were-they-thinking/attachment/1/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/es/2009/06/what-were-they-thinking.md",
+        "target": "/es/2009/06/what-were-they-thinking/attachment/6/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/es/2009/06/what-were-they-thinking.md",
+        "target": "/es/2009/06/what-were-they-thinking/attachment/2/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/es/2009/06/what-were-they-thinking.md",
+        "target": "/es/2009/06/what-were-they-thinking/attachment/5/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/es/2009/06/what-were-they-thinking.md",
+        "target": "/es/2009/06/what-were-they-thinking/attachment/1/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/es/2009/06/what-were-they-thinking.md",
+        "target": "/es/2009/06/what-were-they-thinking/attachment/6/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/es/2009/06/what-were-they-thinking.md",
+        "target": "/es/2009/06/what-were-they-thinking/attachment/2/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/es/2009/06/what-were-they-thinking.md",
+        "target": "/es/2009/06/what-were-they-thinking/attachment/5/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/fr/2017/01/francais-jeu-des-roles-et-des-responsabilites-de-scrum.md",
+        "target": "/ru/2014/01/scrum-roles-and-responsibilities-game.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/pt/2009/06/what-were-they-thinking.md",
+        "target": "/pt/2009/06/what-were-they-thinking/attachment/1/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/pt/2009/06/what-were-they-thinking.md",
+        "target": "/pt/2009/06/what-were-they-thinking/attachment/6/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/pt/2009/06/what-were-they-thinking.md",
+        "target": "/pt/2009/06/what-were-they-thinking/attachment/2/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/pt/2009/06/what-were-they-thinking.md",
+        "target": "/pt/2009/06/what-were-they-thinking/attachment/5/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/pt/2009/06/what-were-they-thinking.md",
+        "target": "/pt/2009/06/what-were-they-thinking/attachment/1/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/pt/2009/06/what-were-they-thinking.md",
+        "target": "/pt/2009/06/what-were-they-thinking/attachment/6/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/pt/2009/06/what-were-they-thinking.md",
+        "target": "/pt/2009/06/what-were-they-thinking/attachment/2/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/pt/2009/06/what-were-they-thinking.md",
+        "target": "/pt/2009/06/what-were-they-thinking/attachment/5/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/06/what-were-they-thinking.md",
+        "target": "/ru/2009/06/what-were-they-thinking/attachment/1/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/06/what-were-they-thinking.md",
+        "target": "/ru/2009/06/what-were-they-thinking/attachment/6/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/06/what-were-they-thinking.md",
+        "target": "/ru/2009/06/what-were-they-thinking/attachment/2/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/06/what-were-they-thinking.md",
+        "target": "/ru/2009/06/what-were-they-thinking/attachment/5/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/06/what-were-they-thinking.md",
+        "target": "/ru/2009/06/what-were-they-thinking/attachment/1/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/06/what-were-they-thinking.md",
+        "target": "/ru/2009/06/what-were-they-thinking/attachment/6/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/06/what-were-they-thinking.md",
+        "target": "/ru/2009/06/what-were-they-thinking/attachment/2/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/06/what-were-they-thinking.md",
+        "target": "/ru/2009/06/what-were-they-thinking/attachment/5/",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/09/sizing-game.md",
+        "target": "/ru/2009/09/sizing-game/doggy-planning.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/09/sizing-game.md",
+        "target": "/ru/2009/09/sizing-game/doggy-planning.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/09/sizing-game.md",
+        "target": "/ru/2009/09/sizing-game/doggy-planning.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2009/09/sizing-game.md",
+        "target": "/ru/2009/09/sizing-game/doggy-planning.html",
+        "kind": "page"
+      },
+      {
+        "file": "posts/ru/2011/04/pair-chess-exercise.md",
+        "target": "/media/tdomf/926/Chess.html",
+        "kind": "media"
+      }
+    ]
+  },
+  "redirects": {
+    "exact": 2934,
+    "patterns": 6
+  },
+  "issues": [
+    {
+      "severity": "WARNING",
+      "code": "archief-url-in-body",
+      "subject": "posts/en/2019/04/technical-debt-game-for-non-technical-people.md",
+      "detail": "web.archive.org staat nog in de body"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/en/2019/01/retrospective-sailing-being-agile.md",
+      "detail": "/media/2019/01/IMG_3022-300x225-150x150.jpg"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/en/2019/01/retrospective-sailing-being-agile.md",
+      "detail": "/media/2019/01/IMG_1392-150x150.jpg"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/en/2019/01/retrospective-sailing-being-agile.md",
+      "detail": "/media/2019/01/IMG_1395-150x150.jpg"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/en/2019/01/witches-cooking-reunion.md",
+      "detail": "/2019/01/witches-cooking-reunion/image/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEMAAABGCAYAAACXBynAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn9SURBVHhe7Zt5TFRJHse/ZqmORoaQRBFx3PEgCHquLqsrDiaGNSoMWp0FuM6WVejG%2BP%2BY4wJf4iuR8QjRt0/FMMoatRdMa64CqPjuMoEHBXvc1XwGF28uGnoo7Z%2BRTXT0E0fQAOz25/kl35Vr17x6vuqfu9X9QoV48CHQJG/Pjg%2BMWzwiWGDTwwbfGLY4BPDBp8YNvjEsMEnhg0%2BMWzwiWFDt5%2BbXLt2De/evYNKpYJWq0W/fv0QEhKCHj16wN/fX5bqGLqtGGfOnEFBQQEyMzOFGFbi4uIQGRmJ/v37CwsKCsLgwYMxe/ZsKEr7Onq3FSMlJQV5eXky5RoqT70nOTkZq1evlrme0e18RklJCfbv34/CwkKZ4xwSgIYODaeLFy%2BK69sM9YzuwsGDBxn3A9RT3TI%2BRNiGDRuY0WhkNTU17OXLl4yLwU6fPi3yPKVbiNHQ0MCys7OZRqNx2OjWjPcIWcPP7Nu3T5ybNWsW27p1q8x1j24xTA4cOIDFixeDP02Z45q1a9eC9yR6mDKnkSlTpgiLjo7GkCFDZK6bNGrSddy6dYvxt0GzJ96a0RAaPnw4O3z4sLy6Y%2BlSMU6dOsUmTpzosOGOjD9tZjab5dWOefHihfAZHz9%2BlDnu02ViHDt2zCNnqVar2aZNm%2BTVrWP1Gfn5%2BTLHfbrMZ5w8eRLcccqUa7gYWLp0qUy1TlRUFHQ6nYhWPaVLxOCvQXz48EGm3IOEq6iokCnH1NfXo0%2BfPrhy5QrGjh0rcz1A9pBOgd79OTk5bO7cuXbDwJVNmjSJ8bBc1uSYmzdvirIZGRkyxzM6VYysrCy7Rrprly9flrXYc%2BLECbZy5Ur25MkT4VeKiorkGc/oNDGqqqpYfHy8aBg5w5aNdWW5ubmyJnu4LxFlysrKZE7b6BQxSktL2fjx45saxucTTcfuWO/evRn3A7I2e7gvYW/evGHV1dViqLRVFK%2BLQTc2f/58h4101zZv3ixrc05xcbEon56eLnM8w%2BtvE5pNHj16VKbahslkkkfO6du3L3bu3IkZM2Zgx44dWL58uQjZ3UaK4jXOnj1r96Q9MZq8bdu2TdbmPikpKczPz4%2BlpqbKHNd4fXHn%2BPHjmDdvnkx5zvTp00XPohUtR/CwG8%2BePcOgQYNE/HL16lU8evRIxBkUqI0bNw5cUFnaBUISL0FrDDNnzrR72p4Yn4HK2hyTmZkpytGUPS0tTeStWrVK5JHTptiEQnRysK7wqhivXr1ier2%2BWeM8sfDwcJaXlydrc8zjx49ZUlKSKM99BVuzZg0bNWqUSNPEbvTo0eL4/Pnz8orW8aoYd%2B/eZYqiNDXOUxszZoysyTlv375l586dY3yoNF1LvoZe4eQ3SKDKykpZunW8KkZ7Ik5qDL0q3YXKWoVPTEwUvYWGDp8DyRKu8dqrldfdvsVZTlhYmDxyzvXr17F7927ExsaK9IABA7Bw4ULx%2BYAPNZHnFo2aeIfJkyfbPXF3jXrG06dPZU2OoQXgBQsWiAiVrklOThZDIy4uTkS9BE0OLRaLOHaFV8WgJbqWjXTXqFHkEJ1BPonK0SSN9w5WUFDAlixZIoYLLScSBoOh68WgG2iPGGQ9e/Zk9%2B/flzXaQ0uANC%2BxQm%2BvkSNHimt37dolBKKVdx7ByhLO8WrPSEhIsGugp8aDLlmbe5AjHTp0qLiWXq2e4DUH%2Bk12Np6XlspU26Eo0hNGjBiBnJwc8flh7969MtdNpCgdSGOXTP2qcTVLUdRsQIyefdZPx3pGBLJQnY6pEMLPtR5/WKf4NPa/XrRI1OfeqG8fXusZGSM%2Bx9fRYVg2NRT3Lhlw/5Iahd%2BG4sQ3eqxZEYBf/yoUMdHBCPS3f/L8vsSvRaXByHHjxXFn0OETNevjNW/M%2Bq%2BPwfDb0yI%2BmMpGv6thn%2BIFgj3BwLNMFboUHzHhCP/eI%2Bdexu/pIWpgJF9wtE/LBghKiNUdbUYP/8PmP2X7aJOftqreGXWajDUwrRlMVQ/XoZlai1000z4lBUBpTwAiDTCGFCFsKQKaOIseP%2BDDv9cq0eQnxk6jQVDo3sgQquFnjUA1eXAhNnAn7bLmr2LV4ZJxU%2Bv8PF9FYIje0DpZ0btfxiUMg2Up/zZXlegfBcOS5kO5gYjerJALOwfgTmDIzH5s3BE89m2ylCDqroG1Jp5ZSr3FnY6gg4Vo6ysDDdu3EDaxm3YeK4Y/6ozIXAI/xMfVDAa6mD05w1TFNDHdrWaD4NaLQwlGlQaGSrqLahuYDAaLWI8hARpwYLDcf67H3Ei869oMLn/UbqtOB0mdIoHT2JDiNWs0FIcD5dx7949PHjwQJS9cOEC7ty50/SB6PMYFe5%2B7wc/oxp1JWo0vNJBqQpE7VMF%2Bikfoe1rxqcDevi9CYNapYD5mfgvv1DR4EhJNYo%2BGHHq4Wu8N5mxYEEq5n/1O0ybOlXU7Q1cikHYikB5lP706RNyc3Nx6NAh5Ofny7PNSRyq4Ic8/qRpHxr1wZogmN7546cLgdAPN0DftwaV2SHQlsXADxqYA%2BphtphhUIdgUu4jFJc1fkHT8D/POw9C9XpM/PJLsXfLeh/0yyNRrF%2B/HjzitXtonuDSgVZWVooNZnQDly5dQjYPpuhTHy23VVVVifOOP/up8NsvFPx9HxAVwx2nQq/QOt4q/mPgad4F3heq8Oa4FkqDns/M/FBh8ceRh29R%2BK4aDyvqUc97BJeS/23eQ/ldOrvTXr16ITQ0VBzTN9k5c%2BaIDXCe4FAMahx1d2pwVlaW2HlHxdxdpW5Exf0Cw7gvgvH71AhEhlbzP2bk9agQoDGjdxTDpu1B%2BNu35TzKIk9JjVXBzKj57Yc%2BPtO0PiIiAvHx8Rg4cKA84wQSoyX0PZRXRiK12agH82fKjbYdBHKjr2habgHcNGxgTAALDaJ8P27213ekWbczuZq92r1NysvLRVxfXV0tc9qK1enyt4bKuvWAxggdm/H8tRGVtfX8XGOv8CbW1XGXvkSK0sTt27dZZGSkQ4XbbtbPifRrtZZlvGexsbFOlwKs2PUMGl/Lli2TqY6C7sn6a7XOhbdVHrWOnRj01qB92f8r0BDZuHGj2GbtksYO0hzaJDZt2jSP9lx1V5swYQLjflC2zDmtxhn0qe758%2BdYtGiRiDTJsf4SaNkDaIV83bp1MuUcl0EXQRvaKd4gXr9%2BLfZMdTeSkpKQmJiILVu2yJw2QGJ4Ag/DxRduurQ72LBhwxgXoE37PlviVs9oCUWmxcXFMvUzK1asAPc3MtUI7cDzLHJtTnBwsDxqTnp6uljvpJDb423RrdAmMVqDRGq5t5M2q6SlpYnwnmbArkhISGgKjmjzCf3zjSNob3hH06FiOGPPnj0oKiqSKcfQZCsjI0OmOp9OE%2BOXgF3Q9f%2BMTwwbfGLY4BPDBp8YTQD/Bcs/K9ElbfioAAAAAElFTkSuQmCC.html"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/en/2019/01/witches-cooking-reunion.md",
+      "detail": "/2019/01/witches-cooking-reunion/image/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEMAAABGCAYAAACXBynAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn9SURBVHhe7Zt5TFRJHse/ZqmORoaQRBFx3PEgCHquLqsrDiaGNSoMWp0FuM6WVejG%2BP%2BY4wJf4iuR8QjRt0/FMMoatRdMa64CqPjuMoEHBXvc1XwGF28uGnoo7Z%2BRTXT0E0fQAOz25/kl35Vr17x6vuqfu9X9QoV48CHQJG/Pjg%2BMWzwiWGDTwwbfGLY4BPDBp8YNvjEsMEnhg0%2BMWzwiWFDt5%2BbXLt2De/evYNKpYJWq0W/fv0QEhKCHj16wN/fX5bqGLqtGGfOnEFBQQEyMzOFGFbi4uIQGRmJ/v37CwsKCsLgwYMxe/ZsKEr7Onq3FSMlJQV5eXky5RoqT70nOTkZq1evlrme0e18RklJCfbv34/CwkKZ4xwSgIYODaeLFy%2BK69sM9YzuwsGDBxn3A9RT3TI%2BRNiGDRuY0WhkNTU17OXLl4yLwU6fPi3yPKVbiNHQ0MCys7OZRqNx2OjWjPcIWcPP7Nu3T5ybNWsW27p1q8x1j24xTA4cOIDFixeDP02Z45q1a9eC9yR6mDKnkSlTpgiLjo7GkCFDZK6bNGrSddy6dYvxt0GzJ96a0RAaPnw4O3z4sLy6Y%2BlSMU6dOsUmTpzosOGOjD9tZjab5dWOefHihfAZHz9%2BlDnu02ViHDt2zCNnqVar2aZNm%2BTVrWP1Gfn5%2BTLHfbrMZ5w8eRLcccqUa7gYWLp0qUy1TlRUFHQ6nYhWPaVLxOCvQXz48EGm3IOEq6iokCnH1NfXo0%2BfPrhy5QrGjh0rcz1A9pBOgd79OTk5bO7cuXbDwJVNmjSJ8bBc1uSYmzdvirIZGRkyxzM6VYysrCy7Rrprly9flrXYc%2BLECbZy5Ur25MkT4VeKiorkGc/oNDGqqqpYfHy8aBg5w5aNdWW5ubmyJnu4LxFlysrKZE7b6BQxSktL2fjx45saxucTTcfuWO/evRn3A7I2e7gvYW/evGHV1dViqLRVFK%2BLQTc2f/58h4101zZv3ixrc05xcbEon56eLnM8w%2BtvE5pNHj16VKbahslkkkfO6du3L3bu3IkZM2Zgx44dWL58uQjZ3UaK4jXOnj1r96Q9MZq8bdu2TdbmPikpKczPz4%2BlpqbKHNd4fXHn%2BPHjmDdvnkx5zvTp00XPohUtR/CwG8%2BePcOgQYNE/HL16lU8evRIxBkUqI0bNw5cUFnaBUISL0FrDDNnzrR72p4Yn4HK2hyTmZkpytGUPS0tTeStWrVK5JHTptiEQnRysK7wqhivXr1ier2%2BWeM8sfDwcJaXlydrc8zjx49ZUlKSKM99BVuzZg0bNWqUSNPEbvTo0eL4/Pnz8orW8aoYd%2B/eZYqiNDXOUxszZoysyTlv375l586dY3yoNF1LvoZe4eQ3SKDKykpZunW8KkZ7Ik5qDL0q3YXKWoVPTEwUvYWGDp8DyRKu8dqrldfdvsVZTlhYmDxyzvXr17F7927ExsaK9IABA7Bw4ULx%2BYAPNZHnFo2aeIfJkyfbPXF3jXrG06dPZU2OoQXgBQsWiAiVrklOThZDIy4uTkS9BE0OLRaLOHaFV8WgJbqWjXTXqFHkEJ1BPonK0SSN9w5WUFDAlixZIoYLLScSBoOh68WgG2iPGGQ9e/Zk9%2B/flzXaQ0uANC%2BxQm%2BvkSNHimt37dolBKKVdx7ByhLO8WrPSEhIsGugp8aDLlmbe5AjHTp0qLiWXq2e4DUH%2Bk12Np6XlspU26Eo0hNGjBiBnJwc8flh7969MtdNpCgdSGOXTP2qcTVLUdRsQIyefdZPx3pGBLJQnY6pEMLPtR5/WKf4NPa/XrRI1OfeqG8fXusZGSM%2Bx9fRYVg2NRT3Lhlw/5Iahd%2BG4sQ3eqxZEYBf/yoUMdHBCPS3f/L8vsSvRaXByHHjxXFn0OETNevjNW/M%2Bq%2BPwfDb0yI%2BmMpGv6thn%2BIFgj3BwLNMFboUHzHhCP/eI%2Bdexu/pIWpgJF9wtE/LBghKiNUdbUYP/8PmP2X7aJOftqreGXWajDUwrRlMVQ/XoZlai1000z4lBUBpTwAiDTCGFCFsKQKaOIseP%2BDDv9cq0eQnxk6jQVDo3sgQquFnjUA1eXAhNnAn7bLmr2LV4ZJxU%2Bv8PF9FYIje0DpZ0btfxiUMg2Up/zZXlegfBcOS5kO5gYjerJALOwfgTmDIzH5s3BE89m2ylCDqroG1Jp5ZSr3FnY6gg4Vo6ysDDdu3EDaxm3YeK4Y/6ozIXAI/xMfVDAa6mD05w1TFNDHdrWaD4NaLQwlGlQaGSrqLahuYDAaLWI8hARpwYLDcf67H3Ei869oMLn/UbqtOB0mdIoHT2JDiNWs0FIcD5dx7949PHjwQJS9cOEC7ty50/SB6PMYFe5%2B7wc/oxp1JWo0vNJBqQpE7VMF%2Bikfoe1rxqcDevi9CYNapYD5mfgvv1DR4EhJNYo%2BGHHq4Wu8N5mxYEEq5n/1O0ybOlXU7Q1cikHYikB5lP706RNyc3Nx6NAh5Ofny7PNSRyq4Ic8/qRpHxr1wZogmN7546cLgdAPN0DftwaV2SHQlsXADxqYA%2BphtphhUIdgUu4jFJc1fkHT8D/POw9C9XpM/PJLsXfLeh/0yyNRrF%2B/HjzitXtonuDSgVZWVooNZnQDly5dQjYPpuhTHy23VVVVifOOP/up8NsvFPx9HxAVwx2nQq/QOt4q/mPgad4F3heq8Oa4FkqDns/M/FBh8ceRh29R%2BK4aDyvqUc97BJeS/23eQ/ldOrvTXr16ITQ0VBzTN9k5c%2BaIDXCe4FAMahx1d2pwVlaW2HlHxdxdpW5Exf0Cw7gvgvH71AhEhlbzP2bk9agQoDGjdxTDpu1B%2BNu35TzKIk9JjVXBzKj57Yc%2BPtO0PiIiAvHx8Rg4cKA84wQSoyX0PZRXRiK12agH82fKjbYdBHKjr2habgHcNGxgTAALDaJ8P27213ekWbczuZq92r1NysvLRVxfXV0tc9qK1enyt4bKuvWAxggdm/H8tRGVtfX8XGOv8CbW1XGXvkSK0sTt27dZZGSkQ4XbbtbPifRrtZZlvGexsbFOlwKs2PUMGl/Lli2TqY6C7sn6a7XOhbdVHrWOnRj01qB92f8r0BDZuHGj2GbtksYO0hzaJDZt2jSP9lx1V5swYQLjflC2zDmtxhn0qe758%2BdYtGiRiDTJsf4SaNkDaIV83bp1MuUcl0EXQRvaKd4gXr9%2BLfZMdTeSkpKQmJiILVu2yJw2QGJ4Ag/DxRduurQ72LBhwxgXoE37PlviVs9oCUWmxcXFMvUzK1asAPc3MtUI7cDzLHJtTnBwsDxqTnp6uljvpJDb423RrdAmMVqDRGq5t5M2q6SlpYnwnmbArkhISGgKjmjzCf3zjSNob3hH06FiOGPPnj0oKiqSKcfQZCsjI0OmOp9OE%2BOXgF3Q9f%2BMTwwbfGLY4BPDBp8YTQD/Bcs/K9ElbfioAAAAAElFTkSuQmCC.html"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/en/2019/01/witches-cooking-reunion.md",
+      "detail": "/2019/01/witches-cooking-reunion/image/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEMAAABGCAYAAACXBynAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn9SURBVHhe7Zt5TFRJHse/ZqmORoaQRBFx3PEgCHquLqsrDiaGNSoMWp0FuM6WVejG%2BP%2BY4wJf4iuR8QjRt0/FMMoatRdMa64CqPjuMoEHBXvc1XwGF28uGnoo7Z%2BRTXT0E0fQAOz25/kl35Vr17x6vuqfu9X9QoV48CHQJG/Pjg%2BMWzwiWGDTwwbfGLY4BPDBp8YNvjEsMEnhg0%2BMWzwiWFDt5%2BbXLt2De/evYNKpYJWq0W/fv0QEhKCHj16wN/fX5bqGLqtGGfOnEFBQQEyMzOFGFbi4uIQGRmJ/v37CwsKCsLgwYMxe/ZsKEr7Onq3FSMlJQV5eXky5RoqT70nOTkZq1evlrme0e18RklJCfbv34/CwkKZ4xwSgIYODaeLFy%2BK69sM9YzuwsGDBxn3A9RT3TI%2BRNiGDRuY0WhkNTU17OXLl4yLwU6fPi3yPKVbiNHQ0MCys7OZRqNx2OjWjPcIWcPP7Nu3T5ybNWsW27p1q8x1j24xTA4cOIDFixeDP02Z45q1a9eC9yR6mDKnkSlTpgiLjo7GkCFDZK6bNGrSddy6dYvxt0GzJ96a0RAaPnw4O3z4sLy6Y%2BlSMU6dOsUmTpzosOGOjD9tZjab5dWOefHihfAZHz9%2BlDnu02ViHDt2zCNnqVar2aZNm%2BTVrWP1Gfn5%2BTLHfbrMZ5w8eRLcccqUa7gYWLp0qUy1TlRUFHQ6nYhWPaVLxOCvQXz48EGm3IOEq6iokCnH1NfXo0%2BfPrhy5QrGjh0rcz1A9pBOgd79OTk5bO7cuXbDwJVNmjSJ8bBc1uSYmzdvirIZGRkyxzM6VYysrCy7Rrprly9flrXYc%2BLECbZy5Ur25MkT4VeKiorkGc/oNDGqqqpYfHy8aBg5w5aNdWW5ubmyJnu4LxFlysrKZE7b6BQxSktL2fjx45saxucTTcfuWO/evRn3A7I2e7gvYW/evGHV1dViqLRVFK%2BLQTc2f/58h4101zZv3ixrc05xcbEon56eLnM8w%2BtvE5pNHj16VKbahslkkkfO6du3L3bu3IkZM2Zgx44dWL58uQjZ3UaK4jXOnj1r96Q9MZq8bdu2TdbmPikpKczPz4%2BlpqbKHNd4fXHn%2BPHjmDdvnkx5zvTp00XPohUtR/CwG8%2BePcOgQYNE/HL16lU8evRIxBkUqI0bNw5cUFnaBUISL0FrDDNnzrR72p4Yn4HK2hyTmZkpytGUPS0tTeStWrVK5JHTptiEQnRysK7wqhivXr1ier2%2BWeM8sfDwcJaXlydrc8zjx49ZUlKSKM99BVuzZg0bNWqUSNPEbvTo0eL4/Pnz8orW8aoYd%2B/eZYqiNDXOUxszZoysyTlv375l586dY3yoNF1LvoZe4eQ3SKDKykpZunW8KkZ7Ik5qDL0q3YXKWoVPTEwUvYWGDp8DyRKu8dqrldfdvsVZTlhYmDxyzvXr17F7927ExsaK9IABA7Bw4ULx%2BYAPNZHnFo2aeIfJkyfbPXF3jXrG06dPZU2OoQXgBQsWiAiVrklOThZDIy4uTkS9BE0OLRaLOHaFV8WgJbqWjXTXqFHkEJ1BPonK0SSN9w5WUFDAlixZIoYLLScSBoOh68WgG2iPGGQ9e/Zk9%2B/flzXaQ0uANC%2BxQm%2BvkSNHimt37dolBKKVdx7ByhLO8WrPSEhIsGugp8aDLlmbe5AjHTp0qLiWXq2e4DUH%2Bk12Np6XlspU26Eo0hNGjBiBnJwc8flh7969MtdNpCgdSGOXTP2qcTVLUdRsQIyefdZPx3pGBLJQnY6pEMLPtR5/WKf4NPa/XrRI1OfeqG8fXusZGSM%2Bx9fRYVg2NRT3Lhlw/5Iahd%2BG4sQ3eqxZEYBf/yoUMdHBCPS3f/L8vsSvRaXByHHjxXFn0OETNevjNW/M%2Bq%2BPwfDb0yI%2BmMpGv6thn%2BIFgj3BwLNMFboUHzHhCP/eI%2Bdexu/pIWpgJF9wtE/LBghKiNUdbUYP/8PmP2X7aJOftqreGXWajDUwrRlMVQ/XoZlai1000z4lBUBpTwAiDTCGFCFsKQKaOIseP%2BDDv9cq0eQnxk6jQVDo3sgQquFnjUA1eXAhNnAn7bLmr2LV4ZJxU%2Bv8PF9FYIje0DpZ0btfxiUMg2Up/zZXlegfBcOS5kO5gYjerJALOwfgTmDIzH5s3BE89m2ylCDqroG1Jp5ZSr3FnY6gg4Vo6ysDDdu3EDaxm3YeK4Y/6ozIXAI/xMfVDAa6mD05w1TFNDHdrWaD4NaLQwlGlQaGSrqLahuYDAaLWI8hARpwYLDcf67H3Ei869oMLn/UbqtOB0mdIoHT2JDiNWs0FIcD5dx7949PHjwQJS9cOEC7ty50/SB6PMYFe5%2B7wc/oxp1JWo0vNJBqQpE7VMF%2Bikfoe1rxqcDevi9CYNapYD5mfgvv1DR4EhJNYo%2BGHHq4Wu8N5mxYEEq5n/1O0ybOlXU7Q1cikHYikB5lP706RNyc3Nx6NAh5Ofny7PNSRyq4Ic8/qRpHxr1wZogmN7546cLgdAPN0DftwaV2SHQlsXADxqYA%2BphtphhUIdgUu4jFJc1fkHT8D/POw9C9XpM/PJLsXfLeh/0yyNRrF%2B/HjzitXtonuDSgVZWVooNZnQDly5dQjYPpuhTHy23VVVVifOOP/up8NsvFPx9HxAVwx2nQq/QOt4q/mPgad4F3heq8Oa4FkqDns/M/FBh8ceRh29R%2BK4aDyvqUc97BJeS/23eQ/ldOrvTXr16ITQ0VBzTN9k5c%2BaIDXCe4FAMahx1d2pwVlaW2HlHxdxdpW5Exf0Cw7gvgvH71AhEhlbzP2bk9agQoDGjdxTDpu1B%2BNu35TzKIk9JjVXBzKj57Yc%2BPtO0PiIiAvHx8Rg4cKA84wQSoyX0PZRXRiK12agH82fKjbYdBHKjr2habgHcNGxgTAALDaJ8P27213ekWbczuZq92r1NysvLRVxfXV0tc9qK1enyt4bKuvWAxggdm/H8tRGVtfX8XGOv8CbW1XGXvkSK0sTt27dZZGSkQ4XbbtbPifRrtZZlvGexsbFOlwKs2PUMGl/Lli2TqY6C7sn6a7XOhbdVHrWOnRj01qB92f8r0BDZuHGj2GbtksYO0hzaJDZt2jSP9lx1V5swYQLjflC2zDmtxhn0qe758%2BdYtGiRiDTJsf4SaNkDaIV83bp1MuUcl0EXQRvaKd4gXr9%2BLfZMdTeSkpKQmJiILVu2yJw2QGJ4Ag/DxRduurQ72LBhwxgXoE37PlviVs9oCUWmxcXFMvUzK1asAPc3MtUI7cDzLHJtTnBwsDxqTnp6uljvpJDb423RrdAmMVqDRGq5t5M2q6SlpYnwnmbArkhISGgKjmjzCf3zjSNob3hH06FiOGPPnj0oKiqSKcfQZCsjI0OmOp9OE%2BOXgF3Q9f%2BMTwwbfGLY4BPDBp8YTQD/Bcs/K9ElbfioAAAAAElFTkSuQmCC.html"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/en/2019/01/witches-cooking-reunion.md",
+      "detail": "/2019/01/witches-cooking-reunion/image/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEMAAABGCAYAAACXBynAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn9SURBVHhe7Zt5TFRJHse/ZqmORoaQRBFx3PEgCHquLqsrDiaGNSoMWp0FuM6WVejG%2BP%2BY4wJf4iuR8QjRt0/FMMoatRdMa64CqPjuMoEHBXvc1XwGF28uGnoo7Z%2BRTXT0E0fQAOz25/kl35Vr17x6vuqfu9X9QoV48CHQJG/Pjg%2BMWzwiWGDTwwbfGLY4BPDBp8YNvjEsMEnhg0%2BMWzwiWFDt5%2BbXLt2De/evYNKpYJWq0W/fv0QEhKCHj16wN/fX5bqGLqtGGfOnEFBQQEyMzOFGFbi4uIQGRmJ/v37CwsKCsLgwYMxe/ZsKEr7Onq3FSMlJQV5eXky5RoqT70nOTkZq1evlrme0e18RklJCfbv34/CwkKZ4xwSgIYODaeLFy%2BK69sM9YzuwsGDBxn3A9RT3TI%2BRNiGDRuY0WhkNTU17OXLl4yLwU6fPi3yPKVbiNHQ0MCys7OZRqNx2OjWjPcIWcPP7Nu3T5ybNWsW27p1q8x1j24xTA4cOIDFixeDP02Z45q1a9eC9yR6mDKnkSlTpgiLjo7GkCFDZK6bNGrSddy6dYvxt0GzJ96a0RAaPnw4O3z4sLy6Y%2BlSMU6dOsUmTpzosOGOjD9tZjab5dWOefHihfAZHz9%2BlDnu02ViHDt2zCNnqVar2aZNm%2BTVrWP1Gfn5%2BTLHfbrMZ5w8eRLcccqUa7gYWLp0qUy1TlRUFHQ6nYhWPaVLxOCvQXz48EGm3IOEq6iokCnH1NfXo0%2BfPrhy5QrGjh0rcz1A9pBOgd79OTk5bO7cuXbDwJVNmjSJ8bBc1uSYmzdvirIZGRkyxzM6VYysrCy7Rrprly9flrXYc%2BLECbZy5Ur25MkT4VeKiorkGc/oNDGqqqpYfHy8aBg5w5aNdWW5ubmyJnu4LxFlysrKZE7b6BQxSktL2fjx45saxucTTcfuWO/evRn3A7I2e7gvYW/evGHV1dViqLRVFK%2BLQTc2f/58h4101zZv3ixrc05xcbEon56eLnM8w%2BtvE5pNHj16VKbahslkkkfO6du3L3bu3IkZM2Zgx44dWL58uQjZ3UaK4jXOnj1r96Q9MZq8bdu2TdbmPikpKczPz4%2BlpqbKHNd4fXHn%2BPHjmDdvnkx5zvTp00XPohUtR/CwG8%2BePcOgQYNE/HL16lU8evRIxBkUqI0bNw5cUFnaBUISL0FrDDNnzrR72p4Yn4HK2hyTmZkpytGUPS0tTeStWrVK5JHTptiEQnRysK7wqhivXr1ier2%2BWeM8sfDwcJaXlydrc8zjx49ZUlKSKM99BVuzZg0bNWqUSNPEbvTo0eL4/Pnz8orW8aoYd%2B/eZYqiNDXOUxszZoysyTlv375l586dY3yoNF1LvoZe4eQ3SKDKykpZunW8KkZ7Ik5qDL0q3YXKWoVPTEwUvYWGDp8DyRKu8dqrldfdvsVZTlhYmDxyzvXr17F7927ExsaK9IABA7Bw4ULx%2BYAPNZHnFo2aeIfJkyfbPXF3jXrG06dPZU2OoQXgBQsWiAiVrklOThZDIy4uTkS9BE0OLRaLOHaFV8WgJbqWjXTXqFHkEJ1BPonK0SSN9w5WUFDAlixZIoYLLScSBoOh68WgG2iPGGQ9e/Zk9%2B/flzXaQ0uANC%2BxQm%2BvkSNHimt37dolBKKVdx7ByhLO8WrPSEhIsGugp8aDLlmbe5AjHTp0qLiWXq2e4DUH%2Bk12Np6XlspU26Eo0hNGjBiBnJwc8flh7969MtdNpCgdSGOXTP2qcTVLUdRsQIyefdZPx3pGBLJQnY6pEMLPtR5/WKf4NPa/XrRI1OfeqG8fXusZGSM%2Bx9fRYVg2NRT3Lhlw/5Iahd%2BG4sQ3eqxZEYBf/yoUMdHBCPS3f/L8vsSvRaXByHHjxXFn0OETNevjNW/M%2Bq%2BPwfDb0yI%2BmMpGv6thn%2BIFgj3BwLNMFboUHzHhCP/eI%2Bdexu/pIWpgJF9wtE/LBghKiNUdbUYP/8PmP2X7aJOftqreGXWajDUwrRlMVQ/XoZlai1000z4lBUBpTwAiDTCGFCFsKQKaOIseP%2BDDv9cq0eQnxk6jQVDo3sgQquFnjUA1eXAhNnAn7bLmr2LV4ZJxU%2Bv8PF9FYIje0DpZ0btfxiUMg2Up/zZXlegfBcOS5kO5gYjerJALOwfgTmDIzH5s3BE89m2ylCDqroG1Jp5ZSr3FnY6gg4Vo6ysDDdu3EDaxm3YeK4Y/6ozIXAI/xMfVDAa6mD05w1TFNDHdrWaD4NaLQwlGlQaGSrqLahuYDAaLWI8hARpwYLDcf67H3Ei869oMLn/UbqtOB0mdIoHT2JDiNWs0FIcD5dx7949PHjwQJS9cOEC7ty50/SB6PMYFe5%2B7wc/oxp1JWo0vNJBqQpE7VMF%2Bikfoe1rxqcDevi9CYNapYD5mfgvv1DR4EhJNYo%2BGHHq4Wu8N5mxYEEq5n/1O0ybOlXU7Q1cikHYikB5lP706RNyc3Nx6NAh5Ofny7PNSRyq4Ic8/qRpHxr1wZogmN7546cLgdAPN0DftwaV2SHQlsXADxqYA%2BphtphhUIdgUu4jFJc1fkHT8D/POw9C9XpM/PJLsXfLeh/0yyNRrF%2B/HjzitXtonuDSgVZWVooNZnQDly5dQjYPpuhTHy23VVVVifOOP/up8NsvFPx9HxAVwx2nQq/QOt4q/mPgad4F3heq8Oa4FkqDns/M/FBh8ceRh29R%2BK4aDyvqUc97BJeS/23eQ/ldOrvTXr16ITQ0VBzTN9k5c%2BaIDXCe4FAMahx1d2pwVlaW2HlHxdxdpW5Exf0Cw7gvgvH71AhEhlbzP2bk9agQoDGjdxTDpu1B%2BNu35TzKIk9JjVXBzKj57Yc%2BPtO0PiIiAvHx8Rg4cKA84wQSoyX0PZRXRiK12agH82fKjbYdBHKjr2habgHcNGxgTAALDaJ8P27213ekWbczuZq92r1NysvLRVxfXV0tc9qK1enyt4bKuvWAxggdm/H8tRGVtfX8XGOv8CbW1XGXvkSK0sTt27dZZGSkQ4XbbtbPifRrtZZlvGexsbFOlwKs2PUMGl/Lli2TqY6C7sn6a7XOhbdVHrWOnRj01qB92f8r0BDZuHGj2GbtksYO0hzaJDZt2jSP9lx1V5swYQLjflC2zDmtxhn0qe758%2BdYtGiRiDTJsf4SaNkDaIV83bp1MuUcl0EXQRvaKd4gXr9%2BLfZMdTeSkpKQmJiILVu2yJw2QGJ4Ag/DxRduurQ72LBhwxgXoE37PlviVs9oCUWmxcXFMvUzK1asAPc3MtUI7cDzLHJtTnBwsDxqTnp6uljvpJDb423RrdAmMVqDRGq5t5M2q6SlpYnwnmbArkhISGgKjmjzCf3zjSNob3hH06FiOGPPnj0oKiqSKcfQZCsjI0OmOp9OE%2BOXgF3Q9f%2BMTwwbfGLY4BPDBp8YTQD/Bcs/K9ElbfioAAAAAElFTkSuQmCC.html"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/en/2019/01/witches-cooking-reunion.md",
+      "detail": "/2019/01/witches-cooking-reunion/image/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEMAAABGCAYAAACXBynAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn9SURBVHhe7Zt5TFRJHse/ZqmORoaQRBFx3PEgCHquLqsrDiaGNSoMWp0FuM6WVejG%2BP%2BY4wJf4iuR8QjRt0/FMMoatRdMa64CqPjuMoEHBXvc1XwGF28uGnoo7Z%2BRTXT0E0fQAOz25/kl35Vr17x6vuqfu9X9QoV48CHQJG/Pjg%2BMWzwiWGDTwwbfGLY4BPDBp8YNvjEsMEnhg0%2BMWzwiWFDt5%2BbXLt2De/evYNKpYJWq0W/fv0QEhKCHj16wN/fX5bqGLqtGGfOnEFBQQEyMzOFGFbi4uIQGRmJ/v37CwsKCsLgwYMxe/ZsKEr7Onq3FSMlJQV5eXky5RoqT70nOTkZq1evlrme0e18RklJCfbv34/CwkKZ4xwSgIYODaeLFy%2BK69sM9YzuwsGDBxn3A9RT3TI%2BRNiGDRuY0WhkNTU17OXLl4yLwU6fPi3yPKVbiNHQ0MCys7OZRqNx2OjWjPcIWcPP7Nu3T5ybNWsW27p1q8x1j24xTA4cOIDFixeDP02Z45q1a9eC9yR6mDKnkSlTpgiLjo7GkCFDZK6bNGrSddy6dYvxt0GzJ96a0RAaPnw4O3z4sLy6Y%2BlSMU6dOsUmTpzosOGOjD9tZjab5dWOefHihfAZHz9%2BlDnu02ViHDt2zCNnqVar2aZNm%2BTVrWP1Gfn5%2BTLHfbrMZ5w8eRLcccqUa7gYWLp0qUy1TlRUFHQ6nYhWPaVLxOCvQXz48EGm3IOEq6iokCnH1NfXo0%2BfPrhy5QrGjh0rcz1A9pBOgd79OTk5bO7cuXbDwJVNmjSJ8bBc1uSYmzdvirIZGRkyxzM6VYysrCy7Rrprly9flrXYc%2BLECbZy5Ur25MkT4VeKiorkGc/oNDGqqqpYfHy8aBg5w5aNdWW5ubmyJnu4LxFlysrKZE7b6BQxSktL2fjx45saxucTTcfuWO/evRn3A7I2e7gvYW/evGHV1dViqLRVFK%2BLQTc2f/58h4101zZv3ixrc05xcbEon56eLnM8w%2BtvE5pNHj16VKbahslkkkfO6du3L3bu3IkZM2Zgx44dWL58uQjZ3UaK4jXOnj1r96Q9MZq8bdu2TdbmPikpKczPz4%2BlpqbKHNd4fXHn%2BPHjmDdvnkx5zvTp00XPohUtR/CwG8%2BePcOgQYNE/HL16lU8evRIxBkUqI0bNw5cUFnaBUISL0FrDDNnzrR72p4Yn4HK2hyTmZkpytGUPS0tTeStWrVK5JHTptiEQnRysK7wqhivXr1ier2%2BWeM8sfDwcJaXlydrc8zjx49ZUlKSKM99BVuzZg0bNWqUSNPEbvTo0eL4/Pnz8orW8aoYd%2B/eZYqiNDXOUxszZoysyTlv375l586dY3yoNF1LvoZe4eQ3SKDKykpZunW8KkZ7Ik5qDL0q3YXKWoVPTEwUvYWGDp8DyRKu8dqrldfdvsVZTlhYmDxyzvXr17F7927ExsaK9IABA7Bw4ULx%2BYAPNZHnFo2aeIfJkyfbPXF3jXrG06dPZU2OoQXgBQsWiAiVrklOThZDIy4uTkS9BE0OLRaLOHaFV8WgJbqWjXTXqFHkEJ1BPonK0SSN9w5WUFDAlixZIoYLLScSBoOh68WgG2iPGGQ9e/Zk9%2B/flzXaQ0uANC%2BxQm%2BvkSNHimt37dolBKKVdx7ByhLO8WrPSEhIsGugp8aDLlmbe5AjHTp0qLiWXq2e4DUH%2Bk12Np6XlspU26Eo0hNGjBiBnJwc8flh7969MtdNpCgdSGOXTP2qcTVLUdRsQIyefdZPx3pGBLJQnY6pEMLPtR5/WKf4NPa/XrRI1OfeqG8fXusZGSM%2Bx9fRYVg2NRT3Lhlw/5Iahd%2BG4sQ3eqxZEYBf/yoUMdHBCPS3f/L8vsSvRaXByHHjxXFn0OETNevjNW/M%2Bq%2BPwfDb0yI%2BmMpGv6thn%2BIFgj3BwLNMFboUHzHhCP/eI%2Bdexu/pIWpgJF9wtE/LBghKiNUdbUYP/8PmP2X7aJOftqreGXWajDUwrRlMVQ/XoZlai1000z4lBUBpTwAiDTCGFCFsKQKaOIseP%2BDDv9cq0eQnxk6jQVDo3sgQquFnjUA1eXAhNnAn7bLmr2LV4ZJxU%2Bv8PF9FYIje0DpZ0btfxiUMg2Up/zZXlegfBcOS5kO5gYjerJALOwfgTmDIzH5s3BE89m2ylCDqroG1Jp5ZSr3FnY6gg4Vo6ysDDdu3EDaxm3YeK4Y/6ozIXAI/xMfVDAa6mD05w1TFNDHdrWaD4NaLQwlGlQaGSrqLahuYDAaLWI8hARpwYLDcf67H3Ei869oMLn/UbqtOB0mdIoHT2JDiNWs0FIcD5dx7949PHjwQJS9cOEC7ty50/SB6PMYFe5%2B7wc/oxp1JWo0vNJBqQpE7VMF%2Bikfoe1rxqcDevi9CYNapYD5mfgvv1DR4EhJNYo%2BGHHq4Wu8N5mxYEEq5n/1O0ybOlXU7Q1cikHYikB5lP706RNyc3Nx6NAh5Ofny7PNSRyq4Ic8/qRpHxr1wZogmN7546cLgdAPN0DftwaV2SHQlsXADxqYA%2BphtphhUIdgUu4jFJc1fkHT8D/POw9C9XpM/PJLsXfLeh/0yyNRrF%2B/HjzitXtonuDSgVZWVooNZnQDly5dQjYPpuhTHy23VVVVifOOP/up8NsvFPx9HxAVwx2nQq/QOt4q/mPgad4F3heq8Oa4FkqDns/M/FBh8ceRh29R%2BK4aDyvqUc97BJeS/23eQ/ldOrvTXr16ITQ0VBzTN9k5c%2BaIDXCe4FAMahx1d2pwVlaW2HlHxdxdpW5Exf0Cw7gvgvH71AhEhlbzP2bk9agQoDGjdxTDpu1B%2BNu35TzKIk9JjVXBzKj57Yc%2BPtO0PiIiAvHx8Rg4cKA84wQSoyX0PZRXRiK12agH82fKjbYdBHKjr2habgHcNGxgTAALDaJ8P27213ekWbczuZq92r1NysvLRVxfXV0tc9qK1enyt4bKuvWAxggdm/H8tRGVtfX8XGOv8CbW1XGXvkSK0sTt27dZZGSkQ4XbbtbPifRrtZZlvGexsbFOlwKs2PUMGl/Lli2TqY6C7sn6a7XOhbdVHrWOnRj01qB92f8r0BDZuHGj2GbtksYO0hzaJDZt2jSP9lx1V5swYQLjflC2zDmtxhn0qe758%2BdYtGiRiDTJsf4SaNkDaIV83bp1MuUcl0EXQRvaKd4gXr9%2BLfZMdTeSkpKQmJiILVu2yJw2QGJ4Ag/DxRduurQ72LBhwxgXoE37PlviVs9oCUWmxcXFMvUzK1asAPc3MtUI7cDzLHJtTnBwsDxqTnp6uljvpJDb423RrdAmMVqDRGq5t5M2q6SlpYnwnmbArkhISGgKjmjzCf3zjSNob3hH06FiOGPPnj0oKiqSKcfQZCsjI0OmOp9OE%2BOXgF3Q9f%2BMTwwbfGLY4BPDBp8YTQD/Bcs/K9ElbfioAAAAAElFTkSuQmCC.html"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/en/2019/01/witches-cooking-reunion.md",
+      "detail": "/2019/01/witches-cooking-reunion/image/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEMAAABGCAYAAACXBynAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn9SURBVHhe7Zt5TFRJHse/ZqmORoaQRBFx3PEgCHquLqsrDiaGNSoMWp0FuM6WVejG%2BP%2BY4wJf4iuR8QjRt0/FMMoatRdMa64CqPjuMoEHBXvc1XwGF28uGnoo7Z%2BRTXT0E0fQAOz25/kl35Vr17x6vuqfu9X9QoV48CHQJG/Pjg%2BMWzwiWGDTwwbfGLY4BPDBp8YNvjEsMEnhg0%2BMWzwiWFDt5%2BbXLt2De/evYNKpYJWq0W/fv0QEhKCHj16wN/fX5bqGLqtGGfOnEFBQQEyMzOFGFbi4uIQGRmJ/v37CwsKCsLgwYMxe/ZsKEr7Onq3FSMlJQV5eXky5RoqT70nOTkZq1evlrme0e18RklJCfbv34/CwkKZ4xwSgIYODaeLFy%2BK69sM9YzuwsGDBxn3A9RT3TI%2BRNiGDRuY0WhkNTU17OXLl4yLwU6fPi3yPKVbiNHQ0MCys7OZRqNx2OjWjPcIWcPP7Nu3T5ybNWsW27p1q8x1j24xTA4cOIDFixeDP02Z45q1a9eC9yR6mDKnkSlTpgiLjo7GkCFDZK6bNGrSddy6dYvxt0GzJ96a0RAaPnw4O3z4sLy6Y%2BlSMU6dOsUmTpzosOGOjD9tZjab5dWOefHihfAZHz9%2BlDnu02ViHDt2zCNnqVar2aZNm%2BTVrWP1Gfn5%2BTLHfbrMZ5w8eRLcccqUa7gYWLp0qUy1TlRUFHQ6nYhWPaVLxOCvQXz48EGm3IOEq6iokCnH1NfXo0%2BfPrhy5QrGjh0rcz1A9pBOgd79OTk5bO7cuXbDwJVNmjSJ8bBc1uSYmzdvirIZGRkyxzM6VYysrCy7Rrprly9flrXYc%2BLECbZy5Ur25MkT4VeKiorkGc/oNDGqqqpYfHy8aBg5w5aNdWW5ubmyJnu4LxFlysrKZE7b6BQxSktL2fjx45saxucTTcfuWO/evRn3A7I2e7gvYW/evGHV1dViqLRVFK%2BLQTc2f/58h4101zZv3ixrc05xcbEon56eLnM8w%2BtvE5pNHj16VKbahslkkkfO6du3L3bu3IkZM2Zgx44dWL58uQjZ3UaK4jXOnj1r96Q9MZq8bdu2TdbmPikpKczPz4%2BlpqbKHNd4fXHn%2BPHjmDdvnkx5zvTp00XPohUtR/CwG8%2BePcOgQYNE/HL16lU8evRIxBkUqI0bNw5cUFnaBUISL0FrDDNnzrR72p4Yn4HK2hyTmZkpytGUPS0tTeStWrVK5JHTptiEQnRysK7wqhivXr1ier2%2BWeM8sfDwcJaXlydrc8zjx49ZUlKSKM99BVuzZg0bNWqUSNPEbvTo0eL4/Pnz8orW8aoYd%2B/eZYqiNDXOUxszZoysyTlv375l586dY3yoNF1LvoZe4eQ3SKDKykpZunW8KkZ7Ik5qDL0q3YXKWoVPTEwUvYWGDp8DyRKu8dqrldfdvsVZTlhYmDxyzvXr17F7927ExsaK9IABA7Bw4ULx%2BYAPNZHnFo2aeIfJkyfbPXF3jXrG06dPZU2OoQXgBQsWiAiVrklOThZDIy4uTkS9BE0OLRaLOHaFV8WgJbqWjXTXqFHkEJ1BPonK0SSN9w5WUFDAlixZIoYLLScSBoOh68WgG2iPGGQ9e/Zk9%2B/flzXaQ0uANC%2BxQm%2BvkSNHimt37dolBKKVdx7ByhLO8WrPSEhIsGugp8aDLlmbe5AjHTp0qLiWXq2e4DUH%2Bk12Np6XlspU26Eo0hNGjBiBnJwc8flh7969MtdNpCgdSGOXTP2qcTVLUdRsQIyefdZPx3pGBLJQnY6pEMLPtR5/WKf4NPa/XrRI1OfeqG8fXusZGSM%2Bx9fRYVg2NRT3Lhlw/5Iahd%2BG4sQ3eqxZEYBf/yoUMdHBCPS3f/L8vsSvRaXByHHjxXFn0OETNevjNW/M%2Bq%2BPwfDb0yI%2BmMpGv6thn%2BIFgj3BwLNMFboUHzHhCP/eI%2Bdexu/pIWpgJF9wtE/LBghKiNUdbUYP/8PmP2X7aJOftqreGXWajDUwrRlMVQ/XoZlai1000z4lBUBpTwAiDTCGFCFsKQKaOIseP%2BDDv9cq0eQnxk6jQVDo3sgQquFnjUA1eXAhNnAn7bLmr2LV4ZJxU%2Bv8PF9FYIje0DpZ0btfxiUMg2Up/zZXlegfBcOS5kO5gYjerJALOwfgTmDIzH5s3BE89m2ylCDqroG1Jp5ZSr3FnY6gg4Vo6ysDDdu3EDaxm3YeK4Y/6ozIXAI/xMfVDAa6mD05w1TFNDHdrWaD4NaLQwlGlQaGSrqLahuYDAaLWI8hARpwYLDcf67H3Ei869oMLn/UbqtOB0mdIoHT2JDiNWs0FIcD5dx7949PHjwQJS9cOEC7ty50/SB6PMYFe5%2B7wc/oxp1JWo0vNJBqQpE7VMF%2Bikfoe1rxqcDevi9CYNapYD5mfgvv1DR4EhJNYo%2BGHHq4Wu8N5mxYEEq5n/1O0ybOlXU7Q1cikHYikB5lP706RNyc3Nx6NAh5Ofny7PNSRyq4Ic8/qRpHxr1wZogmN7546cLgdAPN0DftwaV2SHQlsXADxqYA%2BphtphhUIdgUu4jFJc1fkHT8D/POw9C9XpM/PJLsXfLeh/0yyNRrF%2B/HjzitXtonuDSgVZWVooNZnQDly5dQjYPpuhTHy23VVVVifOOP/up8NsvFPx9HxAVwx2nQq/QOt4q/mPgad4F3heq8Oa4FkqDns/M/FBh8ceRh29R%2BK4aDyvqUc97BJeS/23eQ/ldOrvTXr16ITQ0VBzTN9k5c%2BaIDXCe4FAMahx1d2pwVlaW2HlHxdxdpW5Exf0Cw7gvgvH71AhEhlbzP2bk9agQoDGjdxTDpu1B%2BNu35TzKIk9JjVXBzKj57Yc%2BPtO0PiIiAvHx8Rg4cKA84wQSoyX0PZRXRiK12agH82fKjbYdBHKjr2habgHcNGxgTAALDaJ8P27213ekWbczuZq92r1NysvLRVxfXV0tc9qK1enyt4bKuvWAxggdm/H8tRGVtfX8XGOv8CbW1XGXvkSK0sTt27dZZGSkQ4XbbtbPifRrtZZlvGexsbFOlwKs2PUMGl/Lli2TqY6C7sn6a7XOhbdVHrWOnRj01qB92f8r0BDZuHGj2GbtksYO0hzaJDZt2jSP9lx1V5swYQLjflC2zDmtxhn0qe758%2BdYtGiRiDTJsf4SaNkDaIV83bp1MuUcl0EXQRvaKd4gXr9%2BLfZMdTeSkpKQmJiILVu2yJw2QGJ4Ag/DxRduurQ72LBhwxgXoE37PlviVs9oCUWmxcXFMvUzK1asAPc3MtUI7cDzLHJtTnBwsDxqTnp6uljvpJDb423RrdAmMVqDRGq5t5M2q6SlpYnwnmbArkhISGgKjmjzCf3zjSNob3hH06FiOGPPnj0oKiqSKcfQZCsjI0OmOp9OE%2BOXgF3Q9f%2BMTwwbfGLY4BPDBp8YTQD/Bcs/K9ElbfioAAAAAElFTkSuQmCC.html"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/fr/2012/07/innovation-ambition-matrix.md",
+      "detail": "/media/2012/07/Innovation-Ambition-Matrix1-660x627.png"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/fr/2012/07/innovation-ambition-matrix.md",
+      "detail": "/media/2012/07/Innovation-Ambition-Matrix1-660x627.png"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/fr/2015/10/4-ls.md",
+      "detail": "/media/2016/01/4As-300x215.png"
+    },
+    {
+      "severity": "WARNING",
+      "code": "media-ontbreekt",
+      "subject": "posts/fr/2015/10/4-ls.md",
+      "detail": "/media/2016/01/4As-300x215.png"
+    },
+    {
+      "severity": "WARNING",
+      "code": "pagina-niet-gemigreerd",
+      "subject": "/",
+      "detail": "geen bestand en geen redirect"
+    },
+    {
+      "severity": "WARNING",
+      "code": "pagina-niet-gemigreerd",
+      "subject": "/feed/atom/",
+      "detail": "geen bestand en geen redirect"
+    },
+    {
+      "severity": "WARNING",
+      "code": "pagina-niet-gemigreerd",
+      "subject": "/login/",
+      "detail": "geen bestand en geen redirect"
+    },
+    {
+      "severity": "WARNING",
+      "code": "pagina-niet-gemigreerd",
+      "subject": "/password-reset/",
+      "detail": "geen bestand en geen redirect"
+    },
+    {
+      "severity": "WARNING",
+      "code": "pagina-niet-gemigreerd",
+      "subject": "/submit-game-reference/",
+      "detail": "geen bestand en geen redirect"
+    }
+  ]
+}

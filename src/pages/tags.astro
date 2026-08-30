@@ -1,0 +1,17 @@
+---
+import ArchiveLayout from "../layouts/ArchiveLayout.astro";
+import { tagsWithCounts } from "../utils/content";
+const tags = await tagsWithCounts();
+---
+<ArchiveLayout
+  title="Alle tags"
+  heading="Alle tags"
+  description="Overzicht van alle tags in het archief."
+  path="/tags/"
+  intro={`${tags.length} tags.`}
+  trail={[{ label: "Tags" }]}
+>
+  <ul class="badges">
+    {tags.map((t) => <li><a class="badge" href={`/tag/${t.slug}/`}>{t.name} ({t.count})</a></li>)}
+  </ul>
+</ArchiveLayout>

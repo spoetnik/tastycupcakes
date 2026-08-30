@@ -1,0 +1,153 @@
+---
+import type { GetStaticPaths } from "astro";
+import { render } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Breadcrumbs from "../components/Breadcrumbs.astro";
+import CategoryBadges from "../components/CategoryBadges.astro";
+import AuthorBox from "../components/AuthorBox.astro";
+import ArticleList from "../components/ArticleList.astro";
+import {
+  allPosts, allPages, authorMap, formatDate, categoryBySlug, translationsOf,
+} from "../utils/content";
+import { LANG_NAMES } from "../utils/site";
+
+/**
+ * Eén route voor posts én pagina's, gestuurd door `permalink` uit de frontmatter.
+ * Daarmee blijft elke oorspronkelijke WordPress-URL exact behouden, inclusief
+ * de taalvarianten (/ru/2010/07/…/) en de geneste pagina's (/about/get-involved/).
+ */
+export const getStaticPaths: GetStaticPaths = async () => {
+  const [posts, pages] = await Promise.all([allPosts(), allPages()]);
+  return [
+    ...posts.map((entry) => ({
+      params: { permalink: entry.data.permalink.replace(/^\/|\/$/g, "") },
+      props: { entry, kind: "post" as const },
+    })),
+    ...pages.map((entry) => ({
+      params: { permalink: entry.data.permalink.replace(/^\/|\/$/g, "") },
+      props: { entry, kind: "page" as const },
+    })),
+  ];
+};
+
+const { entry, kind } = Astro.props;
+const { Content } = await render(entry);
+const data = entry.data as any;
+
+const authors = await authorMap();
+const author = data.author ? authors.get(data.author) : undefined;
+
+const isPost = kind === "post";
+const englishPermalink = data.translationOf ?? data.permalink;
+const siblings = isPost ? await translationsOf(englishPermalink) : [];
+const alternates = isPost && (siblings.length > 0 || data.translationOf)
+  ? [
+      { lang: "en", path: englishPermalink },
+      ...siblings.map((s: any) => ({ lang: s.data.lang, path: s.data.permalink })),
+    ]
+  : [];
+
+const related = isPost
+  ? (await allPosts())
+      .filter(
+        (p) =>
+          p.data.lang === data.lang &&
+          p.data.permalink !== data.permalink &&
+          p.data.categories.some((c: string) => data.categories.includes(c)),
+      )
+      .slice(0, 4)
+  : [];
+
+const site = "https://tastycupcakes.org";
+const crumbs = [{ name: "Home", item: `${site}/` }];
+if (isPost && data.categories.length > 0) {
+  crumbs.push({
+    name: categoryBySlug.get(data.categories[0])?.name ?? data.categories[0],
+    item: `${site}/category/${data.categories[0]}/`,
+  });
+}
+crumbs.push({ name: data.title, item: `${site}${data.permalink}` });
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": isPost ? "Article" : "WebPage",
+      "@id": `${site}${data.permalink}#page`,
+      headline: data.title,
+      ...(data.description ? { description: data.description } : {}),
+      inLanguage: data.lang,
+      url: `${site}${data.permalink}`,
+      ...(isPost ? { datePublished: data.date.toISOString() } : {}),
+      ...(data.updated ? { dateModified: data.updated.toISOString() } : {}),
+      ...(author ? { author: { "@type": "Person", name: author.data.name, url: `${site}/author/${author.data.slug}/` } } : {}),
+      ...(data.featuredImage?.src ? { image: new URL(data.featuredImage.src, site).href } : {}),
+      isPartOf: { "@type": "WebSite", name: "TastyCupcakes.org", url: `${site}/` },
+      license: "https://creativecommons.org/licenses/by/4.0/",
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: crumbs.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.name, item: c.item })),
+    },
+  ],
+};
+
+const trail = isPost
+  ? [
+      ...(data.categories.length > 0
+        ? [{ href: `/category/${data.categories[0]}/`, label: categoryBySlug.get(data.categories[0])?.name ?? data.categories[0] }]
+        : []),
+      { label: data.title },
+    ]
+  : [
+      ...(data.parent ? [{ href: `/${data.parent}/`, label: data.parent.split("/").pop() }] : []),
+      { label: data.title },
+    ];
+---
+<BaseLayout
+  title={data.title}
+  description={data.description}
+  path={data.permalink}
+  type={isPost ? "article" : "website"}
+  image={data.featuredImage?.src ?? null}
+  lang={data.lang}
+  publishedTime={isPost ? data.date : undefined}
+  modifiedTime={data.updated}
+  alternates={alternates}
+  schema={schema}
+>
+  <Breadcrumbs trail={trail} />
+  <article class="prose">
+    <h1>{data.title}</h1>
+
+    {isPost && (
+      <p class="meta">
+        <time datetime={data.date.toISOString()}>{formatDate(data.date, data.lang)}</time>
+        {author && <> · <a href={`/author/${author.data.slug}/`}>{author.data.name}</a></>}
+        {data.dateSource !== "meta" && <> · <span title="Datum afgeleid uit de pagina of de URL">datum bij benadering</span></>}
+      </p>
+    )}
+
+    {isPost && <CategoryBadges categories={data.categories} tags={data.tags} />}
+
+    <Content />
+
+    {alternates.length > 1 && (
+      <ul class="lang-switch">
+        <li>Ook beschikbaar in:</li>
+        {alternates
+          .filter((a) => a.path !== data.permalink)
+          .map((a) => <li><a href={a.path} hreflang={a.lang}>{LANG_NAMES[a.lang] ?? a.lang}</a></li>)}
+      </ul>
+    )}
+
+    {author && <AuthorBox author={author} />}
+  </article>
+
+  {related.length > 0 && (
+    <section>
+      <h2>Verwant</h2>
+      <ArticleList posts={related} headingLevel="h3" />
+    </section>
+  )}
+</BaseLayout>

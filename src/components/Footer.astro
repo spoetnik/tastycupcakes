@@ -1,0 +1,20 @@
+---
+import { SITE } from "../utils/site";
+import { categoriesWithCounts } from "../utils/content";
+const cats = (await categoriesWithCounts()).slice(0, 8);
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <p>{SITE.title} — {SITE.tagline}</p>
+    <ul>
+      {cats.map((c) => <li><a href={`/category/${c.slug}/`}>{c.name}</a></li>)}
+      <li><a href="/rss.xml">RSS</a></li>
+    </ul>
+    <p class="license">
+      Content van de TastyCupcakes-community, {year}. Dit werk valt onder een
+      <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+        Creative Commons Attribution 4.0 International License</a>.
+    </p>
+  </div>
+</footer>

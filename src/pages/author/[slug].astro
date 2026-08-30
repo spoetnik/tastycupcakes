@@ -1,0 +1,28 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection } from "astro:content";
+import ArchiveLayout from "../../layouts/ArchiveLayout.astro";
+import ArticleList from "../../components/ArticleList.astro";
+import AuthorBox from "../../components/AuthorBox.astro";
+import { englishPosts } from "../../utils/content";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const authors = await getCollection("authors");
+  return authors.map((author) => ({ params: { slug: author.data.slug }, props: { author } }));
+};
+
+const { author } = Astro.props;
+const posts = (await englishPosts()).filter((p) => p.data.author === author.data.slug);
+---
+<ArchiveLayout
+  title={author.data.name}
+  heading={author.data.name}
+  description={author.data.bio ?? `Artikelen van ${author.data.name}.`}
+  path={`/author/${author.data.slug}/`}
+  trail={[{ label: author.data.name }]}
+  noindex={posts.length === 0}
+>
+  <AuthorBox author={author} linked={false} />
+  <h2>Artikelen</h2>
+  <ArticleList posts={posts} empty="Deze auteur heeft geen gepubliceerde artikelen in het archief." />
+</ArchiveLayout>

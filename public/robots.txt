@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /wp-admin/
+Disallow: /wp-json/
+Disallow: /user/
+
+Sitemap: https://tastycupcakes.org/sitemap-index.xml

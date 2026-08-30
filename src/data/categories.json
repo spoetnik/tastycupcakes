@@ -1,0 +1,81 @@
+[
+  {
+    "slug": "games",
+    "name": "Games",
+    "description": "",
+    "order": 1
+  },
+  {
+    "slug": "agile",
+    "name": "Agile",
+    "description": "",
+    "order": 2
+  },
+  {
+    "slug": "team-dynamics",
+    "name": "Team Dynamics",
+    "description": "",
+    "order": 3
+  },
+  {
+    "slug": "project-management",
+    "name": "Project Management",
+    "description": "",
+    "order": 4
+  },
+  {
+    "slug": "communication",
+    "name": "Communication",
+    "description": "",
+    "order": 5
+  },
+  {
+    "slug": "development",
+    "name": "Development",
+    "description": "",
+    "order": 6
+  },
+  {
+    "slug": "product",
+    "name": "Product",
+    "description": "",
+    "order": 7
+  },
+  {
+    "slug": "requirements",
+    "name": "Requirements",
+    "description": "",
+    "order": 8
+  },
+  {
+    "slug": "lean",
+    "name": "Lean",
+    "description": "",
+    "order": 9
+  },
+  {
+    "slug": "instructing",
+    "name": "Instructing",
+    "description": "",
+    "order": 10
+  },
+  {
+    "slug": "news",
+    "name": "News",
+    "description": "",
+    "order": 11
+  },
+  {
+    "slug": "commentary",
+    "name": "Commentary",
+    "description": "",
+    "order": 12
+  },
+  {
+    "slug": "uncategorized",
+    "name": "Uncategorized",
+    "description": "",
+    "order": 13,
+    "hidden": true
+  }
+]

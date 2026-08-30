@@ -1,0 +1,13 @@
+---
+import Navigation from "./Navigation.astro";
+import { SITE } from "../utils/site";
+---
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      {SITE.title}
+      <small>{SITE.tagline}</small>
+    </a>
+    <Navigation />
+  </div>
+</header>

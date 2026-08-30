@@ -1,0 +1,22 @@
+---
+import type { GetStaticPaths } from "astro";
+import ArchiveLayout from "../../layouts/ArchiveLayout.astro";
+import ArticleList from "../../components/ArticleList.astro";
+import { englishPosts, tagsWithCounts, tagName } from "../../utils/content";
+
+export const getStaticPaths: GetStaticPaths = async () =>
+  (await tagsWithCounts()).map((t) => ({ params: { slug: t.slug }, props: { tag: t } }));
+
+const { tag } = Astro.props;
+const posts = (await englishPosts()).filter((p) => p.data.tags.includes(tag.slug));
+---
+<ArchiveLayout
+  title={`Tag: ${tagName(tag.slug)}`}
+  heading={tagName(tag.slug)}
+  description={`Artikelen met de tag ${tagName(tag.slug)}.`}
+  path={`/tag/${tag.slug}/`}
+  intro={`${posts.length} ${posts.length === 1 ? "artikel" : "artikelen"} met deze tag.`}
+  trail={[{ label: tagName(tag.slug) }]}
+>
+  <ArticleList posts={posts} />
+</ArchiveLayout>

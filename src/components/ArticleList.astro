@@ -1,0 +1,26 @@
+---
+import ArticleCard from "./ArticleCard.astro";
+import type { Post } from "../utils/content";
+import { authorMap } from "../utils/content";
+
+interface Props {
+  posts: Post[];
+  headingLevel?: "h2" | "h3";
+  empty?: string;
+}
+const { posts, headingLevel = "h2", empty = "Geen artikelen gevonden." } = Astro.props;
+const authors = await authorMap();
+---
+{posts.length === 0 ? (
+  <p class="notice">{empty}</p>
+) : (
+  <ul class="card-list">
+    {posts.map((post) => (
+      <ArticleCard
+        post={post}
+        headingLevel={headingLevel}
+        authorName={post.data.author ? authors.get(post.data.author)?.data.name : undefined}
+      />
+    ))}
+  </ul>
+)}

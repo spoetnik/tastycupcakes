@@ -1,0 +1,98 @@
+{
+  "counts": {
+    "bronbestanden gevonden": 13,
+    "taxonomie uit legacy 'Filed Under'": 1,
+    "vertaalde fallback -> 301": 1,
+    "posts geschreven (en)": 7,
+    "posts geschreven (es)": 1,
+    "pagina's geschreven": 1,
+    "auteurs": 2,
+    "categorieën": 3,
+    "tags": 3,
+    "redirects (exact)": 21,
+    "redirects (patronen)": 12,
+    "afbeeldingen gekopieerd": 3,
+    "downloads gekopieerd": 1,
+    "varianten overgeslagen": 1,
+    "afbeeldingen verkleind": 0,
+    "media MB voor": 0,
+    "media MB na": 0
+  },
+  "quality": {
+    "noAuthor": 0,
+    "noCategory": 0,
+    "missingImages": 1,
+    "brokenLinks": 1,
+    "titlesToReview": 0,
+    "externalImages": 1,
+    "unmigratable": 0
+  },
+  "warnings": [
+    {
+      "code": "capture-hersteld",
+      "subject": "/2012/11/dead/",
+      "detail": "bron vervangen door 2012/11/dead/comment-page-1/index.html"
+    },
+    {
+      "code": "auteursbox-wijkt-af",
+      "subject": "/2012/11/dead/",
+      "detail": "entry-meta \"Jane Doe\" vs auteursbox \"Michael McCullough\""
+    },
+    {
+      "code": "auteursbox-wijkt-af",
+      "subject": "/2012/11/linky/",
+      "detail": "entry-meta \"Jane Doe\" vs auteursbox \"Michael McCullough\""
+    },
+    {
+      "code": "auteursbox-wijkt-af",
+      "subject": "/2012/11/many-images/",
+      "detail": "entry-meta \"Jane Doe\" vs auteursbox \"Michael McCullough\""
+    },
+    {
+      "code": "afbeelding-ontbreekt",
+      "subject": "/2012/11/many-images/",
+      "detail": "wp-content/uploads/2012/11/bestaat-niet.jpg"
+    },
+    {
+      "code": "auteursbox-wijkt-af",
+      "subject": "/2012/11/with-image/",
+      "detail": "entry-meta \"Jane Doe\" vs auteursbox \"Michael McCullough\""
+    },
+    {
+      "code": "datum-geschat",
+      "subject": "/es/2012/11/simple/",
+      "detail": "datum afgeleid uit de URL"
+    },
+    {
+      "code": "gebroken-interne-link",
+      "subject": "/2012/11/linky/",
+      "detail": "/2099/01/bestaat-niet/"
+    }
+  ],
+  "errors": [],
+  "lists": {
+    "noAuthor": [],
+    "noCategory": [],
+    "missingImages": [
+      {
+        "file": "wp-content/uploads/2012/11/bestaat-niet.jpg",
+        "references": 1
+      }
+    ],
+    "brokenLinks": [
+      {
+        "from": "/2012/11/linky/",
+        "to": "/2099/01/bestaat-niet/",
+        "note": "post bestaat niet in de export"
+      }
+    ],
+    "titlesToReview": [],
+    "externalImages": [
+      {
+        "post": "/2012/11/many-images/",
+        "src": "https://elders.example/plaatje.png"
+      }
+    ],
+    "unmigratable": []
+  }
+}

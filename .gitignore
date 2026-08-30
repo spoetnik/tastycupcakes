@@ -67,3 +67,13 @@ id_rsa.pub
 *api_key*
 
 
+
+# Migratiepipeline (fase 3)
+node_modules/
+migration/out/
+dist/
+.astro/
+
+# Lokale rommel
+.playwright-mcp/
+oud-delight.png

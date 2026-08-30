@@ -1,0 +1,22 @@
+---
+import type { Post } from "../utils/content";
+import { formatDate, categoryBySlug } from "../utils/content";
+
+interface Props {
+  post: Post;
+  authorName?: string;
+  headingLevel?: "h2" | "h3";
+}
+const { post, authorName, headingLevel = "h2" } = Astro.props;
+const { title, permalink, description, date, categories, lang } = post.data;
+const Heading = headingLevel;
+---
+<li class="card">
+  <Heading><a href={permalink}>{title}</a></Heading>
+  <p class="meta">
+    <time datetime={date.toISOString()}>{formatDate(date, lang)}</time>
+    {authorName && <> · {authorName}</>}
+    {categories.length > 0 && <> · {categoryBySlug.get(categories[0]!)?.name ?? categories[0]}</>}
+  </p>
+  {description && <p>{description.length > 180 ? `${description.slice(0, 177)}…` : description}</p>}
+</li>

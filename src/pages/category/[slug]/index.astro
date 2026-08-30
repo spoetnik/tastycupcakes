@@ -1,0 +1,27 @@
+---
+import type { GetStaticPaths } from "astro";
+import ArchiveLayout from "../../../layouts/ArchiveLayout.astro";
+import ArticleList from "../../../components/ArticleList.astro";
+import Pagination from "../../../components/Pagination.astro";
+import { englishPosts, categories, paginate } from "../../../utils/content";
+import { SITE } from "../../../utils/site";
+
+export const getStaticPaths: GetStaticPaths = async () =>
+  categories.map((c) => ({ params: { slug: c.slug }, props: { category: c } }));
+
+const { category } = Astro.props;
+const posts = (await englishPosts()).filter((p) => p.data.categories.includes(category.slug));
+const page = paginate(posts, 1, SITE.postsPerPage);
+---
+<ArchiveLayout
+  title={category.name}
+  heading={category.name}
+  description={category.description || `Alle artikelen in de categorie ${category.name}.`}
+  path={`/category/${category.slug}/`}
+  intro={`${posts.length} ${posts.length === 1 ? "artikel" : "artikelen"}.`}
+  trail={[{ label: category.name }]}
+  noindex={category.hidden}
+>
+  <ArticleList posts={page.items} />
+  <Pagination current={page.current} total={page.total} base={`/category/${category.slug}/`} />
+</ArchiveLayout>

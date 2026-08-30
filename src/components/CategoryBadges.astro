@@ -1,0 +1,19 @@
+---
+import { categoryBySlug, tagName } from "../utils/content";
+
+interface Props {
+  categories?: string[];
+  tags?: string[];
+}
+const { categories = [], tags = [] } = Astro.props;
+---
+{(categories.length > 0 || tags.length > 0) && (
+  <ul class="badges">
+    {categories.map((slug) => (
+      <li><a class="badge" href={`/category/${slug}/`}>{categoryBySlug.get(slug)?.name ?? slug}</a></li>
+    ))}
+    {tags.map((slug) => (
+      <li><a class="badge" href={`/tag/${slug}/`}>{tagName(slug)}</a></li>
+    ))}
+  </ul>
+)}

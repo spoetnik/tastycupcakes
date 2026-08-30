@@ -1,0 +1,31 @@
+---
+import type { GetStaticPaths } from "astro";
+import ArchiveLayout from "../../layouts/ArchiveLayout.astro";
+import ArticleList from "../../components/ArticleList.astro";
+import Pagination from "../../components/Pagination.astro";
+import { englishPosts, paginate } from "../../utils/content";
+import { SITE } from "../../utils/site";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await englishPosts();
+  const total = Math.ceil(posts.length / SITE.postsPerPage);
+  // Pagina 1 is de homepage; hier alleen 2 en verder.
+  return Array.from({ length: Math.max(0, total - 1) }, (_, i) => ({
+    params: { page: String(i + 2) },
+  }));
+};
+
+const pageNumber = Number(Astro.params.page);
+const posts = await englishPosts();
+const page = paginate(posts, pageNumber, SITE.postsPerPage);
+---
+<ArchiveLayout
+  title={`Artikelen — pagina ${page.current}`}
+  heading={`Artikelen — pagina ${page.current}`}
+  description={`Alle artikelen, pagina ${page.current} van ${page.total}.`}
+  path={`/page/${page.current}/`}
+  trail={[{ label: `Pagina ${page.current}` }]}
+>
+  <ArticleList posts={page.items} />
+  <Pagination current={page.current} total={page.total} base="/" />
+</ArchiveLayout>

@@ -1,0 +1,32 @@
+{
+  "name": "tastycupcakes-migration",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproduceerbare migratie van de WordPress/Wayback-export naar Markdown + frontmatter",
+  "scripts": {
+    "migrate": "node migration/src/index.js --dest .",
+    "migrate:dry": "node migration/src/index.js --dry-run",
+    "test": "node --test \"migration/test/*.test.js\"",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "migrate:out": "node migration/src/index.js",
+    "validate": "node migration/src/validate.js --dest .",
+    "audit:url": "node migration/src/urlaudit.js",
+    "audit:content": "node migration/src/visualdiff.js",
+    "redirects": "node migration/src/emit-redirects.js",
+    "verify": "npm run migrate && npm run build && npm run redirects && npm run audit:url && npm test",
+    "deploy": "node scripts/deploy-bunny.mjs"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^7.2.9",
+    "cheerio": "^1.0.0",
+    "js-yaml": "^4.1.0",
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}

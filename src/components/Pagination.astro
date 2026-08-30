@@ -1,0 +1,17 @@
+---
+interface Props {
+  current: number;
+  total: number;
+  /** Basis-URL van het archief, met afsluitende slash. */
+  base: string;
+}
+const { current, total, base } = Astro.props;
+const pageHref = (n: number) => (n === 1 ? base : `${base}page/${n}/`);
+---
+{total > 1 && (
+  <nav class="pagination" aria-label="Paginering">
+    {current > 1 ? <a href={pageHref(current - 1)} rel="prev">← Vorige</a> : <span>← Vorige</span>}
+    <span>Pagina {current} van {total}</span>
+    {current < total ? <a href={pageHref(current + 1)} rel="next">Volgende →</a> : <span>Volgende →</span>}
+  </nav>
+)}

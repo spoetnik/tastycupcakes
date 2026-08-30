@@ -1,0 +1,608 @@
+{
+  "counts": {
+    "oldUrls": 7546,
+    "newUrls": 1296,
+    "exact": 893,
+    "redirect": 6237,
+    "gone": 416,
+    "redirectBroken": 0,
+    "missing": 0
+  },
+  "perKind": {
+    "homepage": {
+      "EXACT": 1
+    },
+    "artikel": {
+      "EXACT": 347,
+      "GONE": 1
+    },
+    "reactiepagina": {
+      "REDIRECT": 106
+    },
+    "feed": {
+      "REDIRECT": 546
+    },
+    "attachment": {
+      "GONE": 2,
+      "REDIRECT": 101
+    },
+    "pagina": {
+      "EXACT": 7,
+      "REDIRECT": 2,
+      "GONE": 4
+    },
+    "auteur": {
+      "REDIRECT": 148,
+      "EXACT": 24,
+      "GONE": 1
+    },
+    "categorie": {
+      "EXACT": 13
+    },
+    "categorie-paginering": {
+      "EXACT": 84
+    },
+    "vertaald:homepage": {
+      "REDIRECT": 2
+    },
+    "vertaald:artikel": {
+      "EXACT": 99,
+      "REDIRECT": 996,
+      "GONE": 4
+    },
+    "vertaald:reactiepagina": {
+      "REDIRECT": 169
+    },
+    "vertaald:feed": {
+      "REDIRECT": 2102,
+      "GONE": 4
+    },
+    "vertaald:attachment": {
+      "GONE": 8,
+      "REDIRECT": 121
+    },
+    "vertaald:pagina": {
+      "REDIRECT": 36,
+      "GONE": 20
+    },
+    "vertaald:auteur": {
+      "REDIRECT": 386,
+      "GONE": 12
+    },
+    "vertaald:categorie": {
+      "REDIRECT": 44
+    },
+    "vertaald:categorie-paginering": {
+      "REDIRECT": 315
+    },
+    "vertaald:tag": {
+      "REDIRECT": 774
+    },
+    "vertaald:tag-paginering": {
+      "REDIRECT": 84
+    },
+    "home-paginering": {
+      "EXACT": 2
+    },
+    "vertaald:bestand": {
+      "GONE": 1
+    },
+    "tag": {
+      "EXACT": 316,
+      "GONE": 8
+    },
+    "tag-paginering": {
+      "REDIRECT": 61
+    },
+    "gebruikersprofiel": {
+      "GONE": 69
+    },
+    "wordpress-systeem": {
+      "GONE": 282
+    },
+    "media": {
+      "REDIRECT": 244
+    }
+  },
+  "chains": {
+    "1": 6616,
+    "2": 37
+  },
+  "hygiene": {
+    "checks": [],
+    "encodedUrls": 0,
+    "nonAsciiUrls": 30,
+    "duplicateCaseNew": 0
+  },
+  "seo": {
+    "pages": 1090,
+    "canonical": 1090,
+    "description": 1090,
+    "og": 1090,
+    "h1one": 1090
+  },
+  "seoIssues": [
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/alaskan-road-trip/",
+      "detail": "114 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/alphabet-game/",
+      "detail": "82 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/coin-sorting/",
+      "detail": "86 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/doggy-planning/",
+      "detail": "96 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/football-scrum/",
+      "detail": "75 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/mr-happy-face/",
+      "detail": "86 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/pair-programming-game/",
+      "detail": "89 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/presto-manifesto/",
+      "detail": "91 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/process-doodle/",
+      "detail": "92 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/question-game/",
+      "detail": "92 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/resort-brochure/",
+      "detail": "94 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/telephone-game/",
+      "detail": "81 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/the-story-of-our-sprints/",
+      "detail": "127 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/the-train-game/",
+      "detail": "80 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/theory-of-constraints-dice-game/",
+      "detail": "151 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/were-having-a-party/",
+      "detail": "95 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/what-were-they-thinking/",
+      "detail": "109 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/06/you-are-not-in-control/",
+      "detail": "116 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/07/the-problem-with-principles/",
+      "detail": "102 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/08/example-please/",
+      "detail": "99 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/09/sizing-game/",
+      "detail": "105 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2009/12/tastycupcakes-agile-games-podcast-with-improving-enterprises/",
+      "detail": "80 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2010/01/pocket-sized-principles/",
+      "detail": "83 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2010/07/the-backlog-is-in-the-eye-of-the-beholder/",
+      "detail": "162 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/01/agile-games-2011-conference-super-early-bird-pricing-until-january-24-2011/",
+      "detail": "245 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/01/new-for-2011-tastycupcakes-updated-and-expanded-vision/",
+      "detail": "76 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/01/your-turn-to-play-get-involved-with-tasty-cupcakes/",
+      "detail": "71 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/02/agile-games-2011-early-bird-prices-end-feb-28th/",
+      "detail": "170 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/03/bang-for-the-buck-prioritization/",
+      "detail": "195 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/04/non-musical-chairs/",
+      "detail": "113 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/04/pair-chess-exercise/",
+      "detail": "91 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/04/redesign-the-gift-giving-experience/",
+      "detail": "156 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/05/screencast-four-ways-to-search-for-games-on-tastycupcakes/",
+      "detail": "79 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/05/we-played-innovationgames-to-plan-tastycupcakes-org/",
+      "detail": "71 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/08/zhong-zhi-a-one-handed-agile-game-for-illustrating-problems-and-finding-solutions/",
+      "detail": "102 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2011/10/mitch-lacey-team-prioritization/",
+      "detail": "75 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2012/03/fearless-journey-the-game-that-gets-your-team-unstuck/",
+      "detail": "75 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2012/03/one-word-storytelling/",
+      "detail": "104 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2012/03/ouija-board-estimation/",
+      "detail": "108 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2012/05/lean-startup-snowflakes/",
+      "detail": "78 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2012/07/innovation-ambition-matrix/",
+      "detail": "85 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2012/09/the-domino-effect/",
+      "detail": "105 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2012/09/we-want-a-city-scrum-simulation-with-lego-extension/",
+      "detail": "73 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2012/12/take-the-win-win-wave/",
+      "detail": "83 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2013/03/the-high-risk-airplane-factory/",
+      "detail": "89 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2013/04/e-w-a-n-mcgregor/",
+      "detail": "105 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2013/11/mobile-introspection-aka-opening-your-curatorial-eye/",
+      "detail": "74 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2013/12/2014-san-jose-budget-games/",
+      "detail": "150 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2014/01/christmas-lucky-dip-game-with-a-twist-energise-your-christmas-party/",
+      "detail": "78 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2014/02/means-first-then-states/",
+      "detail": "83 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2014/05/the-product-owner-role/",
+      "detail": "149 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2014/07/project-snapper-an-inception-value-realisation-game/",
+      "detail": "72 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2014/08/cynefin-with-the-team-drawer/",
+      "detail": "81 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2015/07/agile-scrum-framework-at-glance/",
+      "detail": "119 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2016/01/hitting-the-target-business-value-in-mission-focused-organizations/",
+      "detail": "90 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2016/04/play4agile-north-america-2016-sept-9-11/",
+      "detail": "82 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2016/06/scrum-card-game/",
+      "detail": "73 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2017/05/gameception-–-the-team-game-that-creates-itself/",
+      "detail": "316 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2017/06/the-kanban-silly-tasks-game/",
+      "detail": "85 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2017/06/the-league-of-extraordinarily-shortsighted-agile-superleaders-retrospective/",
+      "detail": "95 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2018/01/the-fast-and-the-furious-and-other-fs-retrospective-activity/",
+      "detail": "82 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2018/03/dice-of-debt/",
+      "detail": "91 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2018/07/a-non-it-scrum-simulation-game-learn-scrum-and-self-organizing-through-a-game/",
+      "detail": "99 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2018/09/heart-of-agile-psychic-handshake/",
+      "detail": "83 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2020/10/building-high-performing-organizations-game-a-game-for-managers-scrummasters-product-owners/",
+      "detail": "116 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2021/01/a-fun-remote-demo-of-the-benefits-of-self-organization/",
+      "detail": "75 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2022/08/drowning-in-dependencies-try-a-new-dependency-game/",
+      "detail": "72 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2023/04/everyone-is-right-only-partially-exploring-perspectives-improving-relationships/",
+      "detail": "105 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/2023/06/unlocking-team-creativity-the-elementalists-enigma-escape-room-icebreaker/",
+      "detail": "95 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/es/2009/06/doggy-planning/",
+      "detail": "96 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/es/2009/06/theory-of-constraints-dice-game/",
+      "detail": "151 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/es/2009/06/what-were-they-thinking/",
+      "detail": "109 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/pt/2009/06/what-were-they-thinking/",
+      "detail": "109 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/pt/2010/01/pocket-sized-principles/",
+      "detail": "83 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/ru/2009/06/collaborative-origami/",
+      "detail": "99 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/ru/2009/06/doggy-planning/",
+      "detail": "96 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/ru/2009/06/what-were-they-thinking/",
+      "detail": "109 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/ru/2009/06/you-are-not-in-control/",
+      "detail": "116 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/ru/2009/08/example-please/",
+      "detail": "99 tekens"
+    },
+    {
+      "severity": "WARNING",
+      "code": "titel-te-lang",
+      "url": "/ru/2009/09/sizing-game/",
+      "detail": "105 tekens"
+    }
+  ],
+  "missing": [],
+  "redirectBroken": []
+}
